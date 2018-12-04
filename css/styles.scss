@@ -36,8 +36,35 @@ img {
   height: auto; // Højden skal tilpasse sig
 }
 
+// burger menu
+
+.fa-bars{
+  font-size: 30px;
+}
 
 
+
+.dropdown-content {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  position: absolute;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.webmenu{
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   // Alt der ændres i tablet stående fra mobil
@@ -45,6 +72,14 @@ img {
 
 @media screen and (min-width: 992px) {
   // Alt der ændres i tablet liggende fra mobil og tablet stående
+  .dropdown{
+    display: none;
+  }
+
+  .webmenu{
+    display: grid;
+    
+  }
 }
 
 @media screen and (min-width: 1200px) {
