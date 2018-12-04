@@ -12,6 +12,13 @@
     <!-- Titel som ses oppe i browserens tab mv. -->
     <title>Sigende titel</title>
 
+    <meta property="og:title" content="title">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content=http://www.domain.dk">
+    <meta property="og:image" content=http://www.domain.dk/img.jpg">
+    <meta property="og:description" content="beskrivelse">
+    <meta property="og:locale" content="da_DK">
+
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -19,7 +26,7 @@
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -28,40 +35,15 @@
 <!-- i <body> har man alt indhold på siden -->
 <body>
 
-<div class="webmenu">
-
-    <a href="produkter.html">Produkter</a>
-    <a href="kontakt.html">Kontakt</a>
-    <a href="om_os.html">Om Os</a>
-    <a href="blog.html">Blog</a>
-
-</div>
-
-
-<div class="dropdown">
-
-    <div class="button"><i class="fas fa-bars"></i></div>
-
-    <div id="myDropdown" class="dropdown-content">
-        <a href="#">Produkter</a>
-        <a href="#">Om os</a>
-        <a href="#">Kontakt</a>
-        <a href="#">Blog</a>
-    </div>
-
-</div>
-
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
-
-    $(document).ready(function (e) {
-        $('.button').click(function (e) {
-            $('#myDropdown').slideToggle(200);
-        });
-    });
+$(
+    document).ready(function( e) {
+        // Din kode her
+}
+    );
 </script>
+
 
 </body>
 </html>
