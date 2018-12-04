@@ -28,12 +28,40 @@
 <!-- i <body> har man alt indhold på siden -->
 <body>
 
+<div class="webmenu">
+
+    <a href="produkter.html">Produkter</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="om_os.html">Om Os</a>
+    <a href="blog.html">Blog</a>
+
+</div>
+
+
+<div class="dropdown">
+
+    <div class="button"><i class="fas fa-bars"></i></div>
+
+    <div id="myDropdown" class="dropdown-content">
+        <a href="#">Produkter</a>
+        <a href="#">Om os</a>
+        <a href="#">Kontakt</a>
+        <a href="#">Blog</a>
+    </div>
+
+</div>
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
+
     $(document).ready(function (e) {
-        // Din kode her
+        $('.button').click(function (e) {
+            $('#myDropdown').slideToggle(200);
+        });
     });
 </script>
+
 </body>
 </html>
