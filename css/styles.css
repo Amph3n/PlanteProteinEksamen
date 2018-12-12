@@ -26,8 +26,45 @@ img {
   max-width: 100%;
   height: auto; }
 
+.header {
+  background-color: #a8b58a;
+  height: 6vh; }
+
+.logo1 {
+  margin-top: -18%;
+  margin-left: -25%; }
+
+.logo2 {
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.cart1 {
+  display: none; }
+
+.cart2 {
+  left: 0;
+  position: absolute;
+  margin-right: 10px;
+  color: white;
+  top: 0;
+  margin-top: 8px;
+  margin-left: 10px;
+  font-size: 20px; }
+
 .fa-bars {
   font-size: 30px; }
+
+.dropdown {
+  right: 0;
+  position: absolute;
+  margin-right: 10px;
+  top: 0;
+  margin-top: 3px;
+  color: white; }
+
+.button {
+  font-size: 20px; }
 
 .dropdown-content {
   display: none;
@@ -35,7 +72,8 @@ img {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  position: absolute; }
+  position: absolute;
+  right: 0; }
 
 .dropdown-content a {
   color: black;
@@ -46,12 +84,125 @@ img {
 .m_webmenu {
   display: none; }
 
-.m_footer {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr auto 1fr;
-  grid-template-rows: auto;
+.m_voresprodukttx {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 8pt;
+  margin-top: 10px; }
+
+.m_voresproduktoverskrift {
   text-align: center;
-  background-color: beige; }
+  margin-top: 20px;
+  font-size: 8pt; }
+
+.m_voresprodukterpic {
+  display: flex; }
+
+.hvorforplanteoverskrift {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 8pt; }
+
+.hvorforplante {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 8pt; }
+
+.hvorforplante img {
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.hvorfor1 {
+  width: 50%; }
+
+.hvorfor1tx {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px; }
+
+.hvorfor2 {
+  width: 50%; }
+
+.hvorfor2tx {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px; }
+
+.hvorfor3 {
+  margin-top: 30px;
+  width: 50%; }
+
+.hvorfor3tx {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px; }
+
+.hvorfor4 {
+  width: 50%;
+  margin-top: 30px; }
+
+.hvorfor4tx {
+  margin-top: 20px;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.blogoverskrift {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 8pt; }
+
+.blog {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.blogtx {
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 8pt; }
+
+button {
+  margin-left: 8px;
+  margin-top: 10px;
+  background-color: #6f8466;
+  color: white; }
+
+.blogsideoverskrift {
+  font-size: 8pt;
+  text-align: center;
+  margin-top: 20px; }
+
+.blogoverskrifttx {
+  font-size: 8pt;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 18px;
+  margin-right: 18px; }
+
+.rolldown1 {
+  display: none;
+  font-size: 8pt;
+  margin-right: 8px;
+  margin-left: 8px; }
+
+.rolldown2 {
+  display: none;
+  font-size: 8pt;
+  margin-right: 8px;
+  margin-left: 8px; }
+
+.m_footer {
+  display: block;
+  text-align: center;
+  background-color: #a8b58a; }
 
 .m_footertx {
   margin-top: 30px; }
@@ -119,35 +270,154 @@ input {
   .dropdown {
     display: none; }
 
+  .m_motivationpic img {
+    width: 100vw; }
+
+  .header {
+    background-color: #a8b58a;
+    height: 10vh; }
+
   .m_webmenu {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    text-align: center;
-    background-color: beige;
-    height: 50px; }
+    text-align: center; }
 
-  .logo {
+  .logo2 {
+    display: none; }
+
+  .cart1 {
+    display: grid;
+    grid-column-start: 10;
+    grid-column-end: 10;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 15px;
+    font-size: 18pt;
+    color: white; }
+
+  .cart2 {
+    display: none; }
+
+  .logo1 {
     grid-column-start: 1;
     grid-column-end: 3; }
 
   .menupunkt1 {
-    margin-top: 15px;
+    margin-top: 20px;
     grid-column-start: 4;
-    grid-column-end: 5; }
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 18pt; }
+
+  .menupunkt1 a {
+    text-decoration: none;
+    color: white; }
+
+  .menupunkt2 a {
+    text-decoration: none;
+    color: white; }
+
+  .menupunkt3 a {
+    text-decoration: none;
+    color: white; }
+
+  .menupunkt4 a {
+    text-decoration: none;
+    color: white; }
 
   .menupunkt2 {
-    margin-top: 15px;
+    margin-top: 20px;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 18pt; }
+
+  .menupunkt3 {
+    margin-top: 20px;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 18pt; }
+
+  .menupunkt4 {
+    margin-top: 20px;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 18pt; }
+
+  .m_footer {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    background-color: #a8b58a; }
+
+  .m_footertx {
+    margin-top: 30px; }
+
+  .m_nyhedstx {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+
+  .m_kontaktfooter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .m_kundeservice {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .m_nyhedsbrev {
+    margin-top: 20px;
+    margin-bottom: 20px;
     grid-column-start: 5;
     grid-column-end: 6; }
 
-  .menupunkt3 {
-    margin-top: 15px;
-    grid-column-start: 6;
-    grid-column-end: 7; }
+  .vh {
+    margin-top: 20px;
+    border: 1.5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; }
 
-  .menupunkt4 {
-    margin-top: 15px;
-    grid-column-start: 7;
-    grid-column-end: 8; } }
+  .some {
+    font-size: 15pt; }
+
+  input {
+    width: 200px; }
+
+  .m_footertx {
+    margin-right: 30px; }
+
+  .font1 {
+    margin-right: 30px;
+    display: flex; }
+
+  .font2 {
+    margin-right: 30px;
+    display: flex; }
+
+  .font3 {
+    display: flex;
+    margin-right: 30px; }
+
+  .fonticon {
+    margin-right: 10px; } }
 
 /*# sourceMappingURL=styles.css.map */

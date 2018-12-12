@@ -26,7 +26,7 @@
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,44 +34,104 @@
 
 <!-- i <body> har man alt indhold på siden -->
 <body>
-<div class="m_webmenu">
+<header>
+    <div class="header">
+        <div class="m_webmenu">
 
-    <div class="logo">
+            <div class="logo1">
+                <img src="images/logo_hvid.svg">
+            </div>
 
+            <div class="cart1">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+
+
+            <div class="menupunkt1">
+                <a href="produkter.html">Produkter</a></div>
+
+            <div class="menupunkt2">
+                <a href="kontakt.html">Kontakt</a></div>
+
+            <div class="menupunkt3">
+                <a href="om_os.html">Om Os</a></div>
+
+            <div class="menupunkt4">
+                <a href="blog.html">Blog</a></div>
+
+
+        </div>
+        <div class="logo2">
+            <img src="images/Logo hvid.png" height="76" width="263"/>
+        </div>
+
+        <div class="cart2">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+
+        <div class="dropdown">
+
+            <div class="button"><i class="fas fa-bars"></i></div>
+
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Produkter</a>
+                <a href="#">Om os</a>
+                <a href="#">Kontakt</a>
+                <a href="#">Blog</a>
+            </div>
+
+        </div>
     </div>
-
-
-    <div class="menupunkt1">
-        <a href="produkter.html">Produkter</a></div>
-
-    <div class="menupunkt2">
-        <a href="kontakt.html">Kontakt</a></div>
-
-    <div class="menupunkt3">
-        <a href="om_os.html">Om Os</a></div>
-
-    <div class="menupunkt4">
-        <a href="blog.html">Blog</a></div>
-
-
-</div>
-
-
-<div class="dropdown">
-
-    <div class="button"><i class="fas fa-bars"></i></div>
-
-    <div id="myDropdown" class="dropdown-content">
-        <a href="#">Produkter</a>
-        <a href="#">Om os</a>
-        <a href="#">Kontakt</a>
-        <a href="#">Blog</a>
-    </div>
-
-</div>
 </header>
 
-<br>
+<content>
+    <div class="blogsideoverskrift">
+        <h1>Velkommen til bloggen</h1>
+    </div>
+
+    <div class="blogsideoverskrifttx">
+        <p>Velkommen til Plante-proteins blog. Her finder du en masse sunde opskrifter, samt inspiration til vegetar snacks, der smager himmelsk og tilfredsstiller den søde tand.</p>
+    </div>
+    <div class="blogside">
+        <div class="blogsideunderoverskrift">
+
+        </div>
+
+        <div class="blogside">
+            <img src="images/balls.jpg"/>
+        </div>
+
+        <div class="blogsidetx">
+            <h1>Sunde julekugler</h1>
+            <p>Sunde jule kugler med kokos.
+                Her får du en opskrift på hjemmelavet julekugler med kokos, som er perfekt til alle aldersgrupper.
+            </p>
+        </div>
+        <div class="rolldown2">
+            <p>hej</p>
+        </div>
+
+        <button id="toggle2">Læs mere</button>
+
+        <div class="blogside">
+            <img src="images/cocos.jpg"/>
+        </div>
+
+        <div class="blogsidetx">
+            <h1>Bounty barer</h1>
+            <p>Bounty barer har altid været et kæmpe hit, så her får i en opskrift på sunde Bounty barer, som er simple, hurtige og kun lavet på 6 ingredienser. </p>
+        </div>
+
+        <div class="rolldown1">
+            <p>hej</p>
+        </div>
+
+        <button id="toggle1">Læs mere</button>
+
+
+    </div>
+
+</content>
 
 <footer>
     <div class="m_footer">
@@ -161,6 +221,12 @@
     $(document).ready(function (e) {
         $('.button').click(function (e) {
             $('#myDropdown').slideToggle(200);
+        });
+        $("#toggle1").click(function(){
+            $(".rolldown1").toggle();
+        });
+        $("#toggle2").click(function(){
+            $(".rolldown2").toggle();
         });
     });
 </script>
