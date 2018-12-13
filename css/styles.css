@@ -9,7 +9,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   font-family: 'Work Sans', sans-serif;
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 11pt; }
 
 ul, ol {
   margin: 0;
@@ -79,7 +80,7 @@ button {
   display: none;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
   position: absolute;
   right: 0; }
@@ -94,13 +95,11 @@ button {
   display: none; }
 
 .m_voresprodukttx {
-  font-size: 8pt;
   margin: 10px 10px 10px 10px; }
 
 .m_voresproduktoverskrift {
   text-align: center;
-  margin-top: 20px;
-  font-size: 8pt; }
+  margin-top: 20px; }
 
 .m_voresprodukterpic {
   display: flex; }
@@ -108,37 +107,55 @@ button {
 .i_product_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 100px; }
+  height: 120px; }
 
 .i_img1 {
   grid-column: 1;
-  background: url("../images/protein_u.jpg") no-repeat center;
-  background-size: contain; }
+  background: url("../images/background_u.jpg") no-repeat center;
+  background-size: contain;
+  position: relative; }
 
 .i_img1:hover {
-  background: url("../images/protein_m.jpg") no-repeat center;
+  background: url("../images/background_vani.jpg") no-repeat center;
   background-size: contain; }
+
+.i_pro1 {
+  background: url("../images/protein.png") no-repeat center;
+  background-size: cover; }
+
+.i_pro1, .i_pro2 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
 
 .i_img2 {
   grid-column: 2;
-  background: url("../images/bar_u.jpg") no-repeat center;
-  background-size: contain; }
+  background: url("../images/background_u.jpg") no-repeat center;
+  background-size: contain;
+  position: relative; }
 
 .i_img2:hover {
-  background: url("../images/bar_m.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: contain; }
+
+.i_pro2 {
+  background: url("../images/bar.png") no-repeat center;
+  background-size: cover; }
 
 .hvorforplanteoverskrift {
   text-align: center;
-  margin-top: 50px;
-  font-size: 8pt; }
+  margin-top: 30px; }
 
 .hvorforplante {
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
-  text-align: center;
-  font-size: 8pt; }
+  text-align: center; }
 
 .hvorforplante img {
   height: 50px;
@@ -183,10 +200,26 @@ button {
   margin-right: auto;
   margin-left: auto; }
 
+.blog_pic1 {
+  background: url("../images/balls.jpg") no-repeat center;
+  background-size: cover; }
+
+.blog_pic2 {
+  background: url("../images/cocos.jpg") no-repeat center;
+  background-size: cover; }
+
+.blog_pic1, .blog_pic2 {
+  height: 145px;
+  width: 330px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
 .blogoverskrift {
   text-align: center;
-  margin-top: 50px;
-  font-size: 8pt; }
+  margin-top: 50px; }
 
 .blog {
   margin-top: 20px;
@@ -196,8 +229,7 @@ button {
 .blogtx {
   margin-top: 10px;
   margin-left: 8px;
-  margin-right: 8px;
-  font-size: 8pt; }
+  margin-right: 8px; }
 
 .blog button {
   padding: 5px;
@@ -207,12 +239,10 @@ button {
   color: white; }
 
 .blogsideoverskrift {
-  font-size: 8pt;
   text-align: center;
   margin-top: 20px; }
 
 .blogoverskrifttx {
-  font-size: 8pt;
   text-align: center;
   margin-top: 10px;
   margin-left: 18px;
@@ -220,13 +250,11 @@ button {
 
 .rolldown1 {
   display: none;
-  font-size: 8pt;
   margin-right: 8px;
   margin-left: 8px; }
 
 .rolldown2 {
   display: none;
-  font-size: 8pt;
   margin-right: 8px;
   margin-left: 8px; }
 
@@ -284,6 +312,13 @@ input {
   margin-right: 10px; }
 
 @media screen and (min-width: 992px) {
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16pt; }
+
   .dropdown {
     display: none; }
 
@@ -324,7 +359,6 @@ input {
     right: 0;
     margin-top: 20px;
     margin-right: 15px;
-    font-size: 18pt;
     color: white; }
 
   .cart2 {
@@ -339,8 +373,7 @@ input {
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 2;
-    font-size: 18pt; }
+    grid-row-end: 2; }
 
   .menupunkt1 a {
     text-decoration: none;
@@ -363,24 +396,83 @@ input {
     grid-column-start: 5;
     grid-column-end: 6;
     grid-row-start: 1;
-    grid-row-end: 2;
-    font-size: 18pt; }
+    grid-row-end: 2; }
 
   .menupunkt3 {
     margin-top: 20px;
     grid-column-start: 6;
     grid-column-end: 7;
     grid-row-start: 1;
-    grid-row-end: 2;
-    font-size: 18pt; }
+    grid-row-end: 2; }
 
   .menupunkt4 {
     margin-top: 20px;
     grid-column-start: 7;
     grid-column-end: 8;
     grid-row-start: 1;
-    grid-row-end: 2;
-    font-size: 18pt; }
+    grid-row-end: 2; }
+
+  .m_voresproduktoverskrift {
+    text-align: center;
+    margin-top: 20px; }
+
+  .m_voresprodukttx {
+    margin: 14px 220px; }
+
+  .i_product_grid {
+    height: 210px; }
+
+  .i_img1 {
+    grid-column: 1;
+    background: url(../images/background_u.jpg) no-repeat center;
+    background-size: contain;
+    position: relative;
+    margin-left: 25px; }
+
+  .i_pro1, .i_pro2 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+
+  .hvorforplanteoverskrift {
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 30px; }
+
+  .hvorforplante {
+    display: flex;
+    flex-wrap: unset;
+    margin: 75px 0;
+    text-align: center; }
+
+  .hvorfor3 {
+    margin-top: 0;
+    width: 50%; }
+
+  .hvorfor4 {
+    width: 50%;
+    margin-top: 0; }
+
+  .blog_flex1 {
+    display: flex;
+    margin: 35px 20px; }
+
+  .blogtext_flex1 {
+    margin-top: 30px;
+    margin-left: 15px; }
+
+  .blog_flex2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 35px 20px; }
+
+  .blogtext_flex2 {
+    margin-top: 30px; }
 
   .m_footer {
     display: grid;
