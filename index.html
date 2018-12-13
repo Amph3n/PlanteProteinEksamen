@@ -5,6 +5,9 @@
 
 <!-- I <head> har man opsætning - alt det som man ikke ser som selve indholdet -->
 <head>
+    <!-- Embed kode til typografi -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
     <meta charset="utf-8">
@@ -79,7 +82,7 @@
 
 <content>
     <div class="m_motivationpic">
-        <img src="images/billede1.jpg">
+        <img src="images/quote.jpg">
     </div>
 
     <div class="m_voresprodukter">
@@ -92,12 +95,13 @@
                 Klik på et af billederne herunder, og du vil blive ført videre ind til vores store udvalg af velsmagende produkter.</p>
         </div>
 
-        <div class="m_voresprodukterpic">
-
+        <div class="i_product_grid" >
+            <div class="i_img1"></div>
+            <div class="i_img2"></div>
         </div>
 
 <div class="hvorforplanteoverskrift">
-    <h1>Hvorfor Planteprotein</h1>
+    <h2>Hvorfor Planteprotein</h2>
 </div>
         <div class="hvorforplante">
             <div class="hvorfor1">
@@ -141,7 +145,7 @@
 
     <div class="blog">
         <div class="blogoverskrift">
-            <h1>Blog</h1>
+            <h2>Blog</h2>
         </div>
 
         <div class="blog">
@@ -149,7 +153,7 @@
         </div>
 
         <div class="blogtx">
-            <h1>Sunde julekugler</h1>
+            <h2>Sunde julekugler</h2>
             <p>Sunde jule kugler med kokos.
                 Her får du en opskrift på hjemmelavet julekugler med kokos, som er perfekt til alle aldersgrupper.
             </p>
@@ -162,7 +166,7 @@
         </div>
 
         <div class="blogtx">
-            <h1>Bounty barer</h1>
+            <h2>Bounty barer</h2>
             <p>Bounty barer har altid været et kæmpe hit, så her får i en opskrift på sunde Bounty barer, som er simple, hurtige og kun lavet på 6 ingredienser. </p>
         </div>
 
@@ -173,74 +177,11 @@
 
 <footer>
 <div class="m_footer">
-    <div class="m_kontaktfooter">
-
-        <h1>Kontakt</h1>
-        <div class="m_footertx">
-
-    <div class="font1">
-        <div class="fonticon">
-        <i class="fas fa-envelope"></i> </div>
-
-            <div class="fonttx">
-            <p>Email:
-            <br> info@planteprotein.dk
-            <br><br>
-            </p>
-        </div>
-        </div>
-
-    <div class="font2">
-        <div class="fonticon">
-            <i class="fas fa-phone"></i>
-        </div>
-            <div class="fonttx">
-            <p>Tlf:
-             <br>
-             +(45)30 57 93 33
-                <br><br>
-            </p>
-        </div>
-        </div>
-
-            <div class="font3">
-        <div class="fonticon">
-            <i class="fas fa-map-marker-alt"></i>
-        </div>
-
-            <div class="fonttx">
-            <p>Adresse:
-            <br>
-            Dadevej 32, 4171 Glumsø
-        </p>
-        </div>
-        </div>
-
-        </div>
-    </div>
-    <div class="vh"></div>
-    <div class="m_kundeservice">
-        <h1>Kundeservice</h1>
-
-        <div class="m_footertx">
-        <p>
-            <a href="footer.html">Betingelser</a>
-            <br><br>
-            <a href="om_os.html">FAQ</a>
-            <br><br>
-            <a href="footer.html">Forsendelse</a>
-            <br><br>
-            <a href="footer.html">Betalingsmetoder</a>
-        </p>
-    </div>
-    </div>
-
-    <div class="vh"></div>
 
     <div class="m_nyhedsbrev">
-        <h1>Nyhedsbrev</h1><div class="m_nyhedstx">
+        <h2>Nyhedsbrev</h2><div class="m_nyhedstx">
         <form>
-        <input type="text" name="nyhedsbrev" placeholder="Din Email" id="nyhedsbrev">
+            <input type="text" name="nyhedsbrev" placeholder="Din Email" id="nyhedsbrev">
             <button type="submit">Tilmeld</button>
         </form></div>
 
@@ -249,6 +190,73 @@
             <i class="fab fa-instagram"></i>
         </div>
     </div>
+
+    <div class="f_flex">
+        <div class="m_kontaktfooter">
+
+            <h3>Kontakt</h3>
+            <div class="m_footertx">
+
+        <div class="font1">
+            <div class="fonticon">
+            <i class="fas fa-envelope"></i> </div>
+
+                <div class="fonttx">
+                <p>Email:
+                <br> info@planteprotein.dk
+                <br><br>
+                </p>
+            </div>
+            </div>
+
+        <div class="font2">
+            <div class="fonticon">
+                <i class="fas fa-phone"></i>
+            </div>
+                <div class="fonttx">
+                <p>Tlf:
+                 <br>
+                 +(45)30 57 93 33
+                    <br><br>
+                </p>
+            </div>
+            </div>
+
+                <div class="font3">
+            <div class="fonticon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+
+                <div class="fonttx">
+                <p>Adresse:
+                <br>
+                Dadevej 32, 4171 Glumsø
+            </p>
+            </div>
+            </div>
+
+            </div>
+        </div>
+        <div class="vh"></div>
+        <div class="m_kundeservice">
+            <h3>Kundeservice</h3>
+
+            <div class="m_footertx">
+            <p>
+                <a href="footer.html">Betingelser</a>
+                <br><br>
+                <a href="om_os.html">FAQ</a>
+                <br><br>
+                <a href="footer.html">Forsendelse</a>
+                <br><br>
+                <a href="footer.html">Betalingsmetoder</a>
+            </p>
+        </div>
+        </div>
+    </div>
+    <div class="vh"></div>
+
+
 </div>
 </footer>
 

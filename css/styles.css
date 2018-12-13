@@ -7,7 +7,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: normal; }
 
 ul, ol {
   margin: 0;
@@ -19,12 +21,19 @@ li {
 
 p {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9pt; }
 
 img {
   display: block;
   max-width: 100%;
   height: auto; }
+
+button {
+  border-style: none;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: normal; }
 
 .header {
   background-color: #a8b58a;
@@ -85,10 +94,8 @@ img {
   display: none; }
 
 .m_voresprodukttx {
-  margin-left: 10px;
-  margin-right: 10px;
   font-size: 8pt;
-  margin-top: 10px; }
+  margin: 10px 10px 10px 10px; }
 
 .m_voresproduktoverskrift {
   text-align: center;
@@ -97,6 +104,29 @@ img {
 
 .m_voresprodukterpic {
   display: flex; }
+
+.i_product_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100px; }
+
+.i_img1 {
+  grid-column: 1;
+  background: url("../images/protein_u.jpg") no-repeat center;
+  background-size: contain; }
+
+.i_img1:hover {
+  background: url("../images/protein_m.jpg") no-repeat center;
+  background-size: contain; }
+
+.i_img2 {
+  grid-column: 2;
+  background: url("../images/bar_u.jpg") no-repeat center;
+  background-size: contain; }
+
+.i_img2:hover {
+  background: url("../images/bar_m.jpg") no-repeat center;
+  background-size: contain; }
 
 .hvorforplanteoverskrift {
   text-align: center;
@@ -169,10 +199,11 @@ img {
   margin-right: 8px;
   font-size: 8pt; }
 
-button {
+.blog button {
+  padding: 5px;
   margin-left: 8px;
   margin-top: 10px;
-  background-color: #6f8466;
+  background-color: #636e4a;
   color: white; }
 
 .blogsideoverskrift {
@@ -202,40 +233,29 @@ button {
 .m_footer {
   display: block;
   text-align: center;
-  background-color: #a8b58a; }
+  background-color: #f5ede2;
+  padding: 12px 0 0 0;
+  margin: 15px 0 0 0; }
+
+.f_flex {
+  display: flex;
+  margin-left: 5%; }
 
 .m_footertx {
   margin-top: 30px; }
 
 .m_nyhedstx {
-  margin-top: 50px;
-  margin-bottom: 50px; }
-
-.m_kontaktfooter {
   margin-top: 20px;
-  margin-bottom: 20px;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto; }
+  margin-bottom: 30px; }
 
-.m_kundeservice {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto; }
+.m_kontaktfooter, .m_kundeservice {
+  text-align: left; }
 
 .m_nyhedsbrev {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  grid-column-start: 5;
-  grid-column-end: 6; }
+  margin-bottom: 20px; }
 
 .vh {
+  display: none;
   margin-top: 20px;
   border: 1.5px solid black;
   margin-left: auto;
@@ -247,9 +267,6 @@ button {
 
 input {
   width: 200px; }
-
-.m_footertx {
-  margin-right: 30px; }
 
 .font1 {
   margin-right: 30px;
@@ -356,7 +373,7 @@ input {
     grid-template-columns: 1fr auto 1fr auto 1fr;
     grid-template-rows: auto;
     text-align: center;
-    background-color: #a8b58a; }
+    background-color: #f5ede2; }
 
   .m_footertx {
     margin-top: 30px; }
