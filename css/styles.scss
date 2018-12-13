@@ -55,6 +55,8 @@ $brown: #f5ede2;
   background-color: $lightGreen;
   height: 6vh;
 }
+
+
 //menu
 .logo1{
  margin-top: -18%;
@@ -411,6 +413,27 @@ input{
     text-align: center;
 
   }
+  .backgroundpic{
+    display: block;
+    background: url("../images/artboard_2.jpg") no-repeat;
+    background-size: cover;
+
+  }
+
+  .helpbox{
+    display: block;
+    padding: 7% 8% 7% 8%;
+  }
+
+  .shadowbox{
+    background-color: white;
+    display: block;
+    box-shadow: -8px 8px 20px 10px rgba(0,0,0,0.5);
+
+  }
+
+
+
 
   .logo2{
     display: none;
