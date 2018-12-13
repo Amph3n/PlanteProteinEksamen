@@ -231,6 +231,98 @@ button {
   margin-left: 8px;
   margin-right: 8px; }
 
+.p_produktoverskrift {
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.p_produkterprotein {
+  text-align: center;
+  margin-top: 20px; }
+
+.p_product_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  height: auto; }
+
+.p_img1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background: url(../images/protein_u.jpg) no-repeat center;
+  background-size: contain;
+  height: 100px; }
+
+.p_img2 {
+  background: url("../images/bar_u.jpg") no-repeat center;
+  background-size: contain;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height: 100px; }
+
+.p_img3 {
+  background: url("../images/bar_u.jpg") no-repeat center;
+  background-size: contain;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  height: 100px; }
+
+.p_img4 {
+  background: url("../images/bar_u.jpg") no-repeat center;
+  background-size: contain;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  height: 100px; }
+
+.p_img1:hover {
+  background: url("../images/protein_m.jpg") no-repeat center;
+  background-size: contain; }
+
+.p_img2:hover {
+  background: url("../images/bar_m.jpg") no-repeat center;
+  background-size: contain; }
+
+.p_img3:hover {
+  background: url("../images/protein_m.jpg") no-repeat center;
+  background-size: contain; }
+
+.p_img4:hover {
+  background: url("../images/protein_m.jpg") no-repeat center;
+  background-size: contain; }
+
+.p_protein1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.p_protein2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.p_protein3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5; }
+
+.p_protein4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5; }
+
 .blog button {
   padding: 5px;
   margin-left: 8px;
@@ -257,6 +349,46 @@ button {
   display: none;
   margin-right: 8px;
   margin-left: 8px; }
+
+.k_kontaktoverskrift {
+  text-align: center;
+  margin-top: 20px; }
+
+.k_kontakttx {
+  margin-top: 10px;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.k_kontaktinfomation {
+  padding-top: 10px;
+  padding-bottom: 20px; }
+
+.k_kontakticon {
+  margin-top: 20px;
+  text-align: center;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.k_kontakticons1 {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px; }
+
+.k_kontakticons2 {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px; }
+
+.k_kontakticons3 {
+  width: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px; }
 
 .m_footer {
   display: block;
@@ -347,6 +479,49 @@ input {
     background-color: white;
     display: block;
     box-shadow: -8px 8px 20px 10px rgba(0, 0, 0, 0.5); }
+
+  .k_kontaktoverskrift {
+    text-align: center;
+    padding-top: 50px; }
+
+  .k_kontakttx {
+    margin-top: 10px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .k_kontaktinfomation {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-bottom: 50px; }
+
+  .k_kontakticon {
+    text-align: center;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto; }
+
+  .k_kontakticons1 {
+    width: 80px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .k_kontakticons2 {
+    width: 100px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .k_kontakticons3 {
+    width: 55px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto; }
 
   .logo2 {
     display: none; }
