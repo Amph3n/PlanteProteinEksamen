@@ -1271,6 +1271,7 @@ input{
     margin-right: auto;
     margin-bottom: 20px;
 
+
   }
 
   .some{
@@ -1309,17 +1310,10 @@ input{
     display: grid;
     text-align: center;
     background-color: #f5ede2;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
 
-  .f_flex {
-    display: flex;
-    grid-row: 1;
-     margin-left: 0;
-  }
+  
   //footer slut
 }
 
