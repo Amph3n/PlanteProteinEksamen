@@ -557,36 +557,51 @@ button {
   margin-bottom: 5px; }
 
 .m_footer {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   text-align: center;
-  background-color: #f5ede2;
-  padding: 12px 0 0 0;
-  margin: 15px 0 0 0; }
-
-.f_flex {
-  display: flex;
-  margin-left: 5%; }
+  background-color: #f5ede2; }
 
 .m_footertx {
   margin-top: 30px; }
 
 .m_nyhedstx {
-  margin-top: 20px;
-  margin-bottom: 30px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
-.m_kontaktfooter, .m_kundeservice {
-  text-align: left; }
+.m_kontaktfooter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto; }
+
+.m_kundeservice {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto; }
 
 .m_nyhedsbrev {
-  margin-bottom: 20px; }
+  margin-top: 20px;
+  margin-bottom: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2; }
 
 .vh {
-  display: none;
-  margin-top: 20px;
-  border: 1.5px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px; }
+  display: none; }
 
 .some {
   font-size: 15pt; }
@@ -909,6 +924,8 @@ input {
     margin-bottom: 20px;
     grid-column-start: 1;
     grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
     text-align: left;
     margin-left: auto;
     margin-right: auto; }
@@ -918,6 +935,8 @@ input {
     margin-bottom: 20px;
     grid-column-start: 3;
     grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
     text-align: left;
     margin-left: auto;
     margin-right: auto; }
@@ -926,11 +945,14 @@ input {
     margin-top: 20px;
     margin-bottom: 20px;
     grid-column-start: 5;
-    grid-column-end: 6; }
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2; }
 
   .vh {
+    display: block;
     margin-top: 20px;
-    border: 1.5px solid black;
+    border: 0.5px solid black;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px; }
