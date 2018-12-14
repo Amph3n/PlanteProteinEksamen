@@ -315,114 +315,332 @@ text-align: center;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
 
+}
+
+.p_produktoverskrifttx{
+  margin-top: 10px;
 }
 
 .p_produkterprotein{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
+
 }
+
+.p_bar1, .p_bar2{
+  height: 100px;
+  width: 100px;
+  @include center;
+}
+
+.p_pro1, .p_pro2, .p_pro3, .p_pro4, .p_pro5, .p_pro6, .p_pro7, .p_pro8, .p_pro9, .p_pro10, .p_pro11, .p_pro12, .p_pro13, .p_pro14, .p_pro15 {
+  height: 100px;
+  width: 100px;
+  @include center;
+}
+
+.p_img1,.p_img2,.p_img3,.p_img4,.p_img5,.p_img6,.p_img7,.p_img8,.p_img9,.p_img10,.p_img11, .p_img12, .p_img13, .p_img14, .p_img15{
+
+}
+
+.p_proteinbar1, .p_proteinbar2{
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.p_protein1, .p_protein2, .p_protein3, .p_protein4,.p_protein5,.p_protein6,.p_protein7,.p_protein8,.p_protein9,.p_protein10,.p_protein11,.p_protein12, .p_protein13, .p_protein14, .p_protein15{
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 
 .p_product_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+margin-top: 20px;
 
 }
+
+.p_product_grid2{
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+
+
 
 .p_img1 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background: url(../images/protein_u.jpg) no-repeat center;
-  background-size: contain;
-  height: 100px;
 
-}
-
-.p_img2 {
-  background: url("../images/bar_u.jpg") no-repeat center;
-  background-size: contain;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  height: 100px;
-
-}
-
-.p_img3 {
-  background: url("../images/bar_u.jpg") no-repeat center;
-  background-size: contain;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  height: 100px;
-
-}
-
-.p_img4 {
-  background: url("../images/bar_u.jpg") no-repeat center;
-  background-size: contain;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  height: 100px;
-
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .p_img1:hover {
-  background: url("../images/protein_m.jpg") no-repeat center;
-  background-size: contain;
+   background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+ }
+
+.p_pro1 {
+  background: url("../images/protein.png") no-repeat center;
+  background-size: cover;
+}
+
+
+.p_img2 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+
 }
 
 .p_img2:hover {
-  background: url("../images/bar_m.jpg") no-repeat center;
-  background-size: contain;
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+ }
+
+.p_pro2 {
+  background: url("../images/proteinpulver/produkt_1.png") no-repeat center;
+  background-size: cover;
+}
+
+.p_img3 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+
 }
 
 .p_img3:hover {
-  background: url("../images/protein_m.jpg") no-repeat center;
-  background-size: contain;
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro3 {
+  background: url("../images/proteinpulver/produkt_2.png") no-repeat center;
+  background-size: cover;
+}
+
+.p_img4 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+
+
 }
 
 .p_img4:hover {
-  background: url("../images/protein_m.jpg") no-repeat center;
-  background-size: contain;
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro4 {
+  background: url("../images/proteinpulver/produkt_3.png") no-repeat center;
+  background-size: cover;
+}
+
+.p_img5 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.p_img5:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro5 {
+  background: url("../images/proteinpulver/produkt_4.png") no-repeat center;
+  background-size: cover;
+}
+
+.p_img6 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.p_img6:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro6 {
+   background: url("../images/proteinpulver/produkt_5.png") no-repeat center;
+   background-size: cover;
+ }
+
+
+.p_img7 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.p_img7:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro7 {
+  background: url("../images/proteinpulver/produkt_6.png") no-repeat center;
+  background-size: cover;
+}
+
+.p_img8 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.p_img8:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro8 {
+  background: url("../images/proteinpulver/produkt_7.png") no-repeat center;
+  background-size: cover;
+}
+
+.p_img9 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.p_img9:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro9 {
+  background: url("../images/proteinpulver/produkt_8.png") no-repeat center;
+  background-size: cover;
+}
+
+.p_img10 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.p_img10:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro10 {
+  background: url("../images/proteinpulver/produkt_9.png") no-repeat center;
+  background-size: cover;
+}
+
+.p_img11 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.p_img11:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro11 {
+  background: url("../images/proteinpulver/produkt_10.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_img12 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.p_img12:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro12 {
+  background: url("../images/proteinpulver/produkt_11.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_img13 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.p_img13:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro13 {
+  background: url("../images/proteinpulver/produkt_12.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_img14 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.p_img14:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro14 {
+  background: url("../images/proteinpulver/produkt_13.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_img15 {
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.p_img15:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_pro15 {
+  background: url("../images/proteinpulver/produkt_14.png") no-repeat center;
+  background-size: cover;
 }
 
 
-.p_protein1{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
+.p_imgbar1 {
+
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
 }
 
-.p_protein2{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+.p_imgbar1:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
 }
 
-.p_protein3{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
+.p_bar1 {
+  background: url("../images/bar.png") no-repeat center;
+  background-size: cover;
 }
 
-.p_protein4{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 5;
+.p_imgbar2 {
+
+  background: url(../images/background_u.jpg) no-repeat center;
+  background-size: cover;
 }
+
+.p_imgbar2:hover {
+  background: url("../images/background_vani.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.p_bar2 {
+  background: url("../images/proteinpulver/rawfusion-bar.png") no-repeat center;
+  background-size: cover;
+}
+
 
 //produkter slut
 
@@ -607,7 +825,43 @@ input{
 
 @media screen and (min-width: 768px) {
   // Alt der ændres i tablet stående fra mobil
+  //produkter
+  .p_pro1, .p_pro2, .p_pro3, .p_pro4, .p_pro5, .p_pro6, .p_pro7, .p_pro8, .p_pro9, .p_pro10, .p_pro11, .p_pro12, .p_pro13, .p_pro14, .p_pro15 {
+    height: 25vh;
+    width: 20vw;
+    @include center;
+  }
+
+  .p_bar1, .p_bar2{
+    height: 25vh;
+    width: 20vw;
+    @include center;
+  }
+
+  .p_img1,.p_img2,.p_img3,.p_img4,.p_img5,.p_img6,.p_img7,.p_img8,.p_img9,.p_img10,.p_img11, .p_img12, .p_img13, .p_img14, .p_img15{
+
+  }
+
+  .p_product_grid {
+    display: flex;
+    flex-direction: row;
+
+
+  }
+
+  .p_product_grid2{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+  }
+
+  //produkter slut1
 }
+
+
 
 @media screen and (min-width: 992px) {
   // Alt der ændres i tablet liggende fra mobil og tablet stående
@@ -657,6 +911,62 @@ input{
     box-shadow: -8px 8px 20px 10px rgba(0,0,0,0.5);
 
   }
+
+//produkter
+
+  .p_produktoverskrift{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+
+  .p_produktoverskrifttx{
+    margin-top: 10px;
+  }
+
+  .p_produkterprotein{
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .p_pro1, .p_pro2, .p_pro3, .p_pro4, .p_pro5, .p_pro6, .p_pro7, .p_pro8, .p_pro9, .p_pro10, .p_pro11, .p_pro12, .p_pro13, .p_pro14, .p_pro15 {
+    height: 25vh;
+    width: 15vw;
+    @include center;
+  }
+
+  .p_bar1, .p_bar2{
+    height: 25vh;
+    width: 15vw;
+    @include center;
+  }
+
+  .p_img1,.p_img2,.p_img3,.p_img4,.p_img5,.p_img6,.p_img7,.p_img8,.p_img9,.p_img10,.p_img11, .p_img12, .p_img13, .p_img14, .p_img15{
+
+  }
+
+  .p_product_grid {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 20px;
+
+  }
+
+  .p_product_grid2{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+
+  }
+
+  //produkter slut1
 
 
   //Kontakt start
