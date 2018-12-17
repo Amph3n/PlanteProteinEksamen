@@ -10,13 +10,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   font-family: 'Work Sans', sans-serif;
-<<<<<<< HEAD
-  font-weight: bolder;
-  font-size: 30pt; }
-=======
   font-weight: normal;
   font-size: 11pt; }
->>>>>>> master
 
 ul, ol {
   margin: 0;
@@ -239,6 +234,138 @@ button {
   margin-top: 10px;
   margin-left: 8px;
   margin-right: 8px; }
+
+.om_os {
+  margin: 0 10px; }
+
+.overskriftomos {
+  text-align: center; }
+
+.omostekst {
+  margin: 20px 0;
+  line-height: 23px; }
+
+.overskrifthvorfor {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 25px; }
+
+.billederomos {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 15px; }
+
+.kvalitet {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  line-height: 15pt; }
+
+.pengeretur {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  line-height: 15pt; }
+
+.kundeservice {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  line-height: 15pt; }
+
+.flex-container2 {
+  width: 100%;
+  height: 330px; }
+
+.o_img1 {
+  background: url("../images/img2.jpg") no-repeat center; }
+
+.o_img1:hover {
+  transform: scale(1.02); }
+
+.o_img2 {
+  display: none;
+  background: url("../images/img1.jpg") no-repeat center; }
+
+.o_img2:hover {
+  transform: scale(1.02); }
+
+.o_img3 {
+  display: none;
+  background: url("../images/img3.jpg") no-repeat center; }
+
+.o_img3:hover {
+  transform: scale(1.02); }
+
+.questions {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.q1 {
+  text-align: left; }
+
+.o_img1, .o_img2, .o_img3 {
+  width: 100%;
+  height: 100%;
+  background-size: contain; }
+
+.questions {
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20pt; }
+  .questions p {
+    font-size: 11pt;
+    line-height: 28pt; }
+
+.FAQ {
+  text-align: center; }
+
+.q1_1 {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  margin-top: 9px; }
+
+.q1 {
+  position: relative; }
+
+#a1 {
+  padding: 20px;
+  display: none;
+  text-align: left; }
+
+#a2 {
+  padding: 20px;
+  display: none;
+  text-align: left; }
+
+#a3 {
+  padding: 20px;
+  display: none;
+  text-align: left; }
+
+#a4 {
+  padding: 20px;
+  display: none;
+  text-align: left; }
+
+#a5 {
+  padding: 20px;
+  display: none;
+  text-align: left; }
+
+#a6 {
+  padding: 20px;
+  display: none;
+  text-align: left; }
+
+.spg1, .spg2, .spg3, .spg4, .spg5, .spg6 {
+  display: flex; }
 
 .p_produktoverskrift {
   text-align: center;
@@ -498,136 +625,6 @@ button {
   background: url("../images/proteinpulver/rawfusion-bar.png") no-repeat center;
   background-size: cover; }
 
-.om_os {
-  margin: 0 10px; }
-
-.overskriftomos {
-  text-align: center; }
-
-.omostekst {
-  margin: 20px 0;
-  line-height: 23px; }
-
-.overskrifthvorfor {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 25px; }
-
-.billederomos {
-  width: 80%;
-  margin: auto;
-  margin-bottom: 15px; }
-
-.kvalitet {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  line-height: 15pt; }
-
-.pengeretur {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  line-height: 15pt; }
-
-.kundeservice {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  line-height: 15pt; }
-
-.flex-container2 {
-  width: 100%;
-  height: 330px; }
-
-.o_img1 {
-  background: url("../images/img2.jpg") no-repeat center; }
-
-.o_img1:hover {
-  transform: scale(1.02); }
-
-.o_img2 {
-  display: none;
-  background: url("../images/img1.jpg") no-repeat center; }
-
-.o_img2:hover {
-  transform: scale(1.02); }
-
-.o_img3 {
-  display: none;
-  background: url("../images/img3.jpg") no-repeat center; }
-
-.o_img3:hover {
-  transform: scale(1.02); }
-
-.questions {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center; }
-
-.q1 {
-  width: 45vw;
-  text-align: left; }
-
-.o_img1, .o_img2, .o_img3 {
-  width: 100%;
-  height: 100%;
-  background-size: contain; }
-
-.questions {
-  width: 90%;
-  margin: auto;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 20pt; }
-  .questions p {
-    font-size: 11pt;
-    line-height: 28pt; }
-
-.FAQ {
-  margin: 5px 2%;
-  text-align: center; }
-
-.q1_1 {
-  text-align: center;
-  margin: auto;
-  margin-right: 2%; }
-
-.q1 {
-  width: 100vw; }
-
-#a1 {
-  padding: 20px;
-  display: none;
-  text-align: left; }
-
-#a2 {
-  padding: 20px;
-  display: none;
-  text-align: left; }
-
-#a3 {
-  padding: 20px;
-  display: none;
-  text-align: left; }
-
-#a4 {
-  padding: 20px;
-  display: none;
-  text-align: left; }
-
-#a5 {
-  padding: 20px;
-  display: none;
-  text-align: left; }
-
-#a6 {
-  padding: 20px;
-  display: none;
-  text-align: left; }
-
 .blog button {
   padding: 5px;
   margin-left: 8px;
@@ -796,7 +793,6 @@ input {
     margin-left: 2%;
     margin-right: 2%; } }
 @media screen and (min-width: 992px) {
-<<<<<<< HEAD
   .om_os {
     margin: 20px 22%;
     text-align: center;
@@ -872,22 +868,18 @@ input {
       line-height: 28pt; }
 
   .FAQ {
-    margin: 30px 2%;
     text-align: center; }
 
   .q1_1 {
     text-align: center;
-    margin: auto; }
+    margin: auto;
+    width: 100px; }
 
   .q1 {
     width: 40vw; }
 
   .spg1, .spg2, .spg3, .spg4, .spg5, .spg6 {
     display: flex; }
-=======
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 16pt; }
->>>>>>> master
 
   .dropdown {
     display: none; }
