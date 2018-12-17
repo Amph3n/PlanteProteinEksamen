@@ -648,12 +648,8 @@ button {
   background: url("../images/proteinpulver/rawfusion-bar.png") no-repeat center;
   background-size: cover; }
 
-.blog button {
-  padding: 5px;
-  margin-left: 8px;
-  margin-top: 10px;
-  background-color: #636e4a;
-  color: white; }
+.blogheader {
+  display: none; }
 
 .blog_knap1:hover, .blog_knap2:hover {
   cursor: pointer; }
@@ -665,18 +661,49 @@ button {
 .blogoverskrifttx {
   text-align: center;
   margin-top: 10px;
-  margin-left: 18px;
-  margin-right: 18px; }
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px; }
 
-.rolldown1 {
+.rolldown2, .rolldown1 {
   display: none;
   margin-right: 8px;
-  margin-left: 8px; }
+  margin-left: 20px;
+  margin-bottom: 20px; }
 
-.rolldown2 {
-  display: none;
-  margin-right: 8px;
-  margin-left: 8px; }
+.blogsideoverskrifttx {
+  margin: 10px;
+  text-align: center; }
+
+.blogsidetx {
+  margin: 10px;
+  margin-right: 50px;
+  margin-left: 20px; }
+
+#toggle1, #toggle2 {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  background-color: #636e4a;
+  color: white; }
+
+.blogside {
+  margin: 10px; }
+
+.julekugler, .bounty {
+  height: 170px;
+  width: 90%;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto; }
+
+.julekugler {
+  background: url("../images/balls.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 20px; }
+
+.bounty {
+  background: url("../images/cocos.jpg") no-repeat center;
+  background-size: cover; }
 
 .k_kontaktoverskrift {
   text-align: center;
@@ -935,6 +962,55 @@ input {
     background-color: white;
     display: block;
     box-shadow: -8px 8px 20px 10px rgba(0, 0, 0, 0.5); }
+
+  .blogheader {
+    display: block;
+    display: flex; }
+
+  .skyr {
+    margin: 20px; }
+
+  .ananas {
+    margin: 20px; }
+
+  .blogsideoverskrift {
+    padding-top: 20px; }
+
+  .blogsideoverskrifttx {
+    margin-right: 250px;
+    margin-left: 250px;
+    text-align: center;
+    padding-bottom: 15px; }
+
+  .skyr {
+    margin: 15px; }
+
+  .ananas {
+    margin: 15px; }
+
+  .blogside {
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px; }
+
+  .julekugler, .bounty {
+    height: 300px;
+    width: 90%;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto; }
+
+  .blogsidetx {
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%; }
+
+  #toggle1, #toggle2 {
+    margin-right: auto;
+    margin-left: auto; }
+
+  .rolldown1, .rolldown2 {
+    text-align: left; }
 
   .p_produktoverskrift {
     text-align: center;
