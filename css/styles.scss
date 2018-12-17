@@ -315,7 +315,7 @@ width: 60%;
 
 
   .om_os{
-    margin: 0 10px;
+    margin: 0 25px;
   }
 
   .overskriftomos{
@@ -338,6 +338,10 @@ width: 60%;
    margin: auto;
    margin-bottom: 15px;
  }
+
+.hvorfor_vælge_os{
+ margin: 0 25px;
+}
 
  .kvalitet{
    text-align: center;
@@ -405,9 +409,28 @@ width: 60%;
   text-align: left;
 }
 
-.q1_1{
+.spg1:hover {
+  color: #a8b58a;
+}
 
+.spg2:hover {
+  color: #a8b58a;
+}
 
+.spg3:hover {
+  color: #a8b58a;
+}
+
+.spg4:hover {
+  color: #a8b58a;
+}
+
+.spg5:hover {
+  color: #a8b58a;
+}
+
+.spg6:hover {
+  color: #a8b58a;
 }
 
 
@@ -445,11 +468,14 @@ width: 60%;
  // margin-right: 2%;
   position: absolute;
   right: 0;
-  margin-top: 9px
+  margin-top: 9px;
+  margin-right: 10pt;
+
 }
 
 .q1{
   position: relative;
+  margin-left: 10pt;
 }
 
 
@@ -1087,7 +1113,7 @@ input{
   }
 
   .hvorfor_vælge_os{
-    margin: 10px 12%;
+    margin: 20px 10%;
     text-align: center;
     line-height: 27px;
   }
@@ -1098,7 +1124,7 @@ input{
   }
 
   .billederomos  {
-  width: 150px;
+  width: 180px;
   margin-left: auto;
   margin-right: auto;
   }
@@ -1165,7 +1191,9 @@ input{
   .q1_1{
     text-align: center;
     margin: auto;
-    width: 100px
+    width: 100px;
+    margin-right: 25%;
+    line-height: 30pt;
 
   }
 
