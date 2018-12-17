@@ -13,13 +13,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0; // Ingen ydre margen fra overskrifter
   padding: 0; // Ingen indre margen fra overskrifter
   font-family: 'Work Sans', sans-serif;
-<<<<<<< HEAD
-  font-weight: bolder;
-  font-size: 30pt;
-=======
   font-weight: normal;
   font-size: 11pt;
->>>>>>> master
+
 }
 
 ul, ol {
@@ -405,7 +401,7 @@ width: 60%;
 }
 
 .q1{
-  width: 45vw;
+  //width: 45vw;
   text-align: left;
 }
 
@@ -423,7 +419,7 @@ width: 60%;
 }
 
 .questions {
-  width: 90%;
+  //width: 90%;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
   margin-top: 20pt;
@@ -439,18 +435,21 @@ width: 60%;
 }
 
 .FAQ{
-  margin: 5px 2%;
+ // margin: 5px 2%;
   text-align: center;
 }
 
 .q1_1{
   text-align: center;
   margin: auto;
-  margin-right: 2%;
+ // margin-right: 2%;
+  position: absolute;
+  right: 0;
+  margin-top: 9px
 }
 
 .q1{
-  width: 100vw;
+  position: relative;
 }
 
 
@@ -488,6 +487,10 @@ width: 60%;
   padding: 20px;
   display: none;
   text-align: left;
+}
+
+.spg1, .spg2, .spg3, .spg4, .spg5, .spg6 {
+  display: flex;
 }
 
 // om os slut
@@ -1061,7 +1064,6 @@ input{
 @media screen and (min-width: 992px) {
   // Alt der ændres i tablet liggende fra mobil og tablet stående
 
-<<<<<<< HEAD
   // om os
 
   .om_os{
@@ -1156,13 +1158,15 @@ input{
   }
 
   .FAQ{
-    margin: 30px 2%;
+    //margin: 30px 2%;
     text-align: center;
   }
 
   .q1_1{
     text-align: center;
     margin: auto;
+    width: 100px
+
   }
 
   .q1{
@@ -1177,13 +1181,6 @@ input{
 
 
 
-
-=======
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 16pt;
-  }
-
->>>>>>> master
   .dropdown{
     display: none;
   }
