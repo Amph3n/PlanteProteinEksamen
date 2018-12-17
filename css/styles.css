@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -9,8 +10,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   font-family: 'Work Sans', sans-serif;
+<<<<<<< HEAD
+  font-weight: bolder;
+  font-size: 30pt; }
+=======
   font-weight: normal;
   font-size: 11pt; }
+>>>>>>> master
 
 ul, ol {
   margin: 0;
@@ -23,8 +29,9 @@ li {
 p {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 9pt; }
+  font-family: 'montserrat', sans-serif;
+  font-size: 11pt;
+  font-weight: lighter; }
 
 img {
   display: block;
@@ -491,6 +498,136 @@ button {
   background: url("../images/proteinpulver/rawfusion-bar.png") no-repeat center;
   background-size: cover; }
 
+.om_os {
+  margin: 0 10px; }
+
+.overskriftomos {
+  text-align: center; }
+
+.omostekst {
+  margin: 20px 0;
+  line-height: 23px; }
+
+.overskrifthvorfor {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 25px; }
+
+.billederomos {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 15px; }
+
+.kvalitet {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  line-height: 15pt; }
+
+.pengeretur {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  line-height: 15pt; }
+
+.kundeservice {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  line-height: 15pt; }
+
+.flex-container2 {
+  width: 100%;
+  height: 330px; }
+
+.o_img1 {
+  background: url("../images/img2.jpg") no-repeat center; }
+
+.o_img1:hover {
+  transform: scale(1.02); }
+
+.o_img2 {
+  display: none;
+  background: url("../images/img1.jpg") no-repeat center; }
+
+.o_img2:hover {
+  transform: scale(1.02); }
+
+.o_img3 {
+  display: none;
+  background: url("../images/img3.jpg") no-repeat center; }
+
+.o_img3:hover {
+  transform: scale(1.02); }
+
+.questions {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.q1 {
+  width: 45vw;
+  text-align: left; }
+
+.o_img1, .o_img2, .o_img3 {
+  width: 100%;
+  height: 100%;
+  background-size: contain; }
+
+.questions {
+  width: 90%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20pt; }
+  .questions p {
+    font-size: 11pt;
+    line-height: 28pt; }
+
+.FAQ {
+  margin: 5px 2%;
+  text-align: center; }
+
+.q1_1 {
+  text-align: center;
+  margin: auto;
+  margin-right: 2%; }
+
+.q1 {
+  width: 100vw; }
+
+#a1 {
+  padding: 20px;
+  display: none;
+  text-align: left; }
+
+#a2 {
+  padding: 20px;
+  display: none;
+  text-align: left; }
+
+#a3 {
+  padding: 20px;
+  display: none;
+  text-align: left; }
+
+#a4 {
+  padding: 20px;
+  display: none;
+  text-align: left; }
+
+#a5 {
+  padding: 20px;
+  display: none;
+  text-align: left; }
+
+#a6 {
+  padding: 20px;
+  display: none;
+  text-align: left; }
+
 .blog button {
   padding: 5px;
   margin-left: 8px;
@@ -659,8 +796,98 @@ input {
     margin-left: 2%;
     margin-right: 2%; } }
 @media screen and (min-width: 992px) {
+<<<<<<< HEAD
+  .om_os {
+    margin: 20px 22%;
+    text-align: center;
+    margin-bottom: 50px; }
+
+  .overskriftomos {
+    text-align: center; }
+
+  .omostekst {
+    margin: 20px 0;
+    line-height: 27px; }
+
+  .overskrifthvorfor {
+    text-align: center;
+    margin-top: 20px; }
+
+  .hvorfor_vælge_os {
+    margin: 10px 12%;
+    text-align: center;
+    line-height: 27px; }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row; }
+
+  .billederomos {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .kvalitet {
+    width: 28%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 22px;
+    margin-top: 13px; }
+
+  .pengeretur {
+    width: 28%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 22px;
+    margin-top: 13px; }
+
+  .kundeservice {
+    width: 28%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 22px;
+    margin-top: 13px; }
+
+  .flex-container2 {
+    display: flex;
+    flex-direction: row;
+    height: 300px; }
+
+  .o_img1, .o_img2, .o_img3 {
+    display: block;
+    margin: 0 5px; }
+
+  .questions {
+    width: 60%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20pt; }
+    .questions i {
+      width: 10%; }
+    .questions p {
+      font-size: 11pt;
+      line-height: 28pt; }
+
+  .FAQ {
+    margin: 30px 2%;
+    text-align: center; }
+
+  .q1_1 {
+    text-align: center;
+    margin: auto; }
+
+  .q1 {
+    width: 40vw; }
+
+  .spg1, .spg2, .spg3, .spg4, .spg5, .spg6 {
+    display: flex; }
+=======
   h1, h2, h3, h4, h5, h6 {
     font-size: 16pt; }
+>>>>>>> master
 
   .dropdown {
     display: none; }
