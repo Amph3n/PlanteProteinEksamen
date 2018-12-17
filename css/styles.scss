@@ -1064,6 +1064,10 @@ input{
 @media screen and (min-width: 992px) {
   // Alt der ændres i tablet liggende fra mobil og tablet stående
 
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 16pt;
+
   // om os
 
   .om_os{
@@ -1155,6 +1159,7 @@ input{
       font-size: 11pt;
       line-height: 28pt;
     }
+
   }
 
   .FAQ{
@@ -1610,7 +1615,7 @@ input{
     grid-template-rows: 1fr;
   }
 
-  
+
   //footer slut
 }
 
