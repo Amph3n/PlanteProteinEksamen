@@ -34,6 +34,7 @@ p {
   font-family: 'montserrat', sans-serif;
   font-size: 9pt;
   font-weight: lighter;
+  word-break: keep-all;
 }
 
 // Sikrer billeder er responsive
@@ -1464,7 +1465,7 @@ input{
 
   .p_produkttx2{
     margin-top: 20px;
-    width: 45%;
+    width: 50%;
   }
 
   .p_flex1{
