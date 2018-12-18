@@ -491,6 +491,72 @@ button {
   background: url("../images/proteinpulver/rawfusion-bar.png") no-repeat center;
   background-size: cover; }
 
+.p_produktdisplay {
+  background: url("../images/background_vani.jpg");
+  background-size: cover;
+  padding-bottom: 20px; }
+
+.p_imgprodukt {
+  background: url("../images/protein.png") no-repeat center;
+  background-size: contain;
+  height: 150px; }
+
+.whitebox {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white; }
+
+.whiteboxholder {
+  padding: 5px; }
+
+.p_produkttx {
+  text-align: left; }
+
+.p_produkttx2 {
+  margin-top: 5px; }
+
+.p_smag {
+  margin-top: 10px; }
+
+.p_pris {
+  margin-top: 10px; }
+
+.p_antaldiv {
+  text-align: center;
+  margin-top: 0px;
+  display: flex;
+  background-color: #deccb4;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .p_antaldiv input {
+    background-color: #deccb4;
+    text-align: center;
+    height: 25px;
+    text-decoration: none;
+    border: none;
+    width: 33%; }
+
+.minus {
+  width: 33%; }
+
+.plus {
+  width: 33%; }
+
+.p_antal {
+  text-align: center;
+  margin-top: 10px; }
+
+.p_kurv {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+  .p_kurv button {
+    background-color: #8da185;
+    width: 200px;
+    height: 25px; }
+
 .blog button {
   padding: 5px;
   margin-left: 8px;
@@ -737,6 +803,81 @@ input {
     width: 29%;
     margin-left: 2%;
     margin-right: 2%; }
+
+  .p_produktdisplay {
+    background: url("../images/background_vani.jpg");
+    background-size: cover;
+    padding-bottom: 40px; }
+
+  .p_imgprodukt {
+    background: url("../images/protein.png") no-repeat center;
+    background-size: contain;
+    height: 400px; }
+
+  .whitebox {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white; }
+
+  .whiteboxholder {
+    padding: 20px;
+    display: flex; }
+
+  .p_produkttx {
+    text-align: left; }
+
+  .p_produkttx2 {
+    margin-top: 20px;
+    width: 45%; }
+
+  .p_flex2 {
+    text-align: right;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid; }
+
+  .p_flex3 {
+    display: flex;
+    margin-top: auto; }
+
+  .p_smag {
+    margin-top: 10px; }
+
+  .p_pris {
+    margin-top: auto; }
+
+  .p_antal {
+    margin-top: 0px; }
+
+  .plus {
+    width: 33%; }
+
+  .minus {
+    width: 33%; }
+
+  .p_antaldiv {
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 5px;
+    display: flex;
+    background-color: #deccb4;
+    width: 120px; }
+    .p_antaldiv input {
+      background-color: #deccb4;
+      text-align: center;
+      height: 25px;
+      text-decoration: none;
+      border: none;
+      width: 33%; }
+
+  .p_kurv {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px; }
+    .p_kurv button {
+      background-color: #8da185;
+      width: 200px;
+      height: 25px; }
 
   .k_kontaktoverskrift {
     text-align: center;

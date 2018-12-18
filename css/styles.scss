@@ -348,10 +348,10 @@ text-align: center;
 }
 
 .p_proteinbar1, .p_proteinbar2{
-  text-align: left;
-  margin-bottom: 20px;
-  margin-top: 10px;
-}
+   text-align: left;
+   margin-bottom: 20px;
+   margin-top: 10px;
+ }
 
 .p_protein1, .p_protein2, .p_protein3, .p_protein4,.p_protein5,.p_protein6,.p_protein7,.p_protein8,.p_protein9,.p_protein10,.p_protein11,.p_protein12, .p_protein13, .p_protein14, .p_protein15{
   text-align: left;
@@ -645,6 +645,112 @@ margin-top: 20px;
 
 
 //produkter slut
+
+//produktside
+
+.p_produktdisplay {
+  background: url("../images/background_vani.jpg");
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+.p_imgprodukt {
+  background: url("../images/protein.png") no-repeat center;
+  background-size: contain;
+  height: 150px;
+}
+
+.whitebox{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.whiteboxholder{
+  padding: 5px;
+}
+
+.p_produkttx {
+  text-align: left;
+}
+
+.p_produkttx1 {
+
+}
+
+
+.p_produkttx2{
+margin-top: 5px;
+}
+
+.p_smag{
+  margin-top: 10px;
+}
+
+.p_antaldiv{
+
+}
+
+.p_pris{
+  margin-top: 10px;
+}
+
+
+
+.p_antaldiv{
+  text-align: center;
+  margin-top: 0px;
+  display: flex;
+  background-color: #deccb4;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  input{
+    background-color: #deccb4;
+    text-align: center;
+    height: 25px;
+    text-decoration: none;
+    border: none;
+    width: 33%;
+  }
+
+}
+
+.minus{
+  width: 33%;
+}
+
+.plus{
+  width: 33%;
+}
+
+.p_antal{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+.p_kurv{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+
+  button{
+    background-color: #8da185;
+    width: 200px;
+    height: 25px;
+  }
+}
+
+//produktside slut
+
+
 
 
 
@@ -978,6 +1084,121 @@ input{
   }
 
   //produkter slut1
+
+  //produktside
+
+  .p_produktdisplay {
+    background: url("../images/background_vani.jpg");
+    background-size: cover;
+    padding-bottom: 40px;
+  }
+
+  .p_imgprodukt {
+    background: url("../images/protein.png") no-repeat center;
+    background-size: contain;
+    height: 400px;
+  }
+
+  .whitebox{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+  }
+
+  .whiteboxholder{
+    padding: 20px;
+    display: flex;
+  }
+
+  .p_produkttx {
+    text-align: left;
+  }
+
+  .p_produkttx1 {
+
+  }
+
+
+  .p_produkttx2{
+    margin-top: 20px;
+    width: 45%;
+  }
+
+  .p_flex1{
+
+  }
+
+  .p_flex2{
+    text-align: right;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+
+  }
+
+  .p_flex3{
+    display: flex;
+    margin-top: auto;
+  }
+
+  .p_smag{
+    margin-top: 10px;
+  }
+
+  .p_pris{
+
+    margin-top: auto;
+  }
+
+  .p_antal{
+    margin-top: 0px;
+  }
+
+
+  .plus{
+    width: 33%;
+  }
+
+  .minus{
+    width: 33%;
+  }
+
+  .p_antaldiv{
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 5px;
+    display: flex;
+    background-color: #deccb4;
+    width: 120px;
+
+
+    input{
+      background-color: #deccb4;
+      text-align: center;
+      height: 25px;
+      text-decoration: none;
+      border: none;
+      width: 33%;
+    }
+
+  }
+
+  .p_kurv{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+
+    button{
+      background-color: #8da185;
+      width: 200px;
+      height: 25px;
+    }
+  }
+
+  //produktside slut
+
 
 
   //Kontakt start
