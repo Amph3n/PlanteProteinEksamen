@@ -14,9 +14,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Kontakt</title>
-    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="imegas/favicon-16x16.png" sizes="16x16" />
+    <title>Sigende titel</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -41,10 +39,6 @@
                 <img src="images/logo_hvid.svg">
             </div>
 
-            <a class="logo_link" href="index.html">
-                <div class="logo_img"></div>
-            </a>
-
             <div class="cart1">
                 <i class="fas fa-shopping-cart"></i>
             </div>
@@ -54,10 +48,10 @@
                 <a href="produkter.html">Produkter</a></div>
 
             <div class="menupunkt2">
-                <a href="om_os.html">Om os</a></div>
+                <a href="kontakt.html">Kontakt</a></div>
 
             <div class="menupunkt3">
-                <a href="kontakt.html">Kontakt</a></div>
+                <a href="om_os.html">Om Os</a></div>
 
             <div class="menupunkt4">
                 <a href="blog.html">Blog</a></div>
@@ -65,9 +59,7 @@
 
         </div>
         <div class="logo2">
-            <a href="index.html">
-                <img src="images/Logo hvid.png" height="76" width="263"/>
-            </a>
+            <img src="images/Logo hvid.png" height="76" width="263"/>
         </div>
 
         <div class="cart2">
@@ -79,15 +71,16 @@
             <div class="button"><i class="fas fa-bars"></i></div>
 
             <div id="myDropdown" class="dropdown-content">
-                <a href="produkter.html">Produkter</a>
-                <a href="om_os.html">Om os</a>
-                <a href="kontakt.html">Kontakt</a>
-                <a href="blog.html">Blog</a>
+                <a href="#">Produkter</a>
+                <a href="#">Om os</a>
+                <a href="#">Kontakt</a>
+                <a href="#">Blog</a>
             </div>
 
         </div>
     </div>
 </header>
+
 <div class="backgroundpic">
 
     <div class="helpbox">
@@ -95,46 +88,63 @@
         <div class="shadowbox">
 
 
+            <content>
+                <div class="p_produktdisplay1">
 
-<content>
+                    <div class="p_imgprodukt1"></div>
+                    <div class="whitebox">
+                        <div class="whiteboxholder">
+                            <div class="p_produkttx">
+                                <div class="p_flex1">
+                                    <div class="p_produkttx1"><h1>GymQueen Queen Vegan Protein </h1></div>
+                                    <div class="p_produkttx2"> <p>Endelig er det her! Det ny-lancerede Queen Vegan Proteinpulver!
+                                        Et yderst velsmagende proteinpulver, der med sine to højkvalitets proteinkilder,
+                                        med en daglig dosis på 30 g, giver dig 23,8 g protein og kun 110 kcal.
+                                    </p></div></div></div>
 
-    <div class="k_kontaktoverskrift">
-<h1>Kontakt</h1>
-    </div>
-<div class="k_kontakttx">
-<p>Vi ser frem til at høre fra dig!
-<br><br>
-    Måske kan du finde svar på dine
-    spørgsmål under vores FAQ, hvor vi har besvaret de ofte stillet spørgsmål vi får. Hvis ikke, kan du kontakte Plante-Protein på nedenstående.</p>
-</div>
+                            <div class="p_flex2">
+                                <div class="p_smag">
+                                    <select>
+                                        <option value="chokolade">Chokolade</option>
+                                        <option value="vanilje">Vanilje</option>
 
-<div class="k_kontaktinfomation">
+                                    </select>
+                                </div>
 
-    <div class="k_kontakticon">
-    <div class="k_kontakticons1"><img src="images/Layer 3.png"></div>
-        <p>Ring på <br>
-            + (45) 30 57 93 33 <br>
-            Man - fre 09 - 14</p>
-    </div>
+                                <div class="p_pris">
+                                    DKK 175,00 kr
+                                </div>
 
-    <div class="k_kontakticon">
-        <div class="k_kontakticons2"><img src="images/Layer 2.png" height="150" width="auto"/></div>
-        <p>Skriv en mail til <br>
-            info@plante-protein.dk <br>
-            Vi bestræber os på at svare inden for 24 timer
-        </p>
-    </div>
+                                <div class="p_flex3">
 
-    <div class="k_kontakticon">
-        <div class="k_kontakticons3"><img src="images/Layer 4.png"></div>
-        <p>Adresse<br>
-            Dadevej 32, <br>
-            4171 Glumsø
-        </p>
-    </div>
-</div>
 
-</content>
+                                    <div class="p_antal">
+
+
+
+
+
+                                        <div class="p_antaldiv">
+                                            <div class="minus"><h2>-</h2></div>
+                                            <input type="number" value="1" id="p_number">
+                                            <div class="plus"><h2>+</h2></div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="p_kurv">
+                                        <button type="submit">Føj til Kurv</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>  </div>
+
+
+                </div>
+
+            </content>
 
             <footer>
                 <div class="m_footer">
@@ -216,7 +226,8 @@
                     </div>
                 </div>
             </footer>
-</div></div></div>
+        </div></div></div>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
@@ -225,7 +236,24 @@
         $('.button').click(function (e) {
             $('#myDropdown').slideToggle(200);
         });
+
+
+
+
+        $('.plus').click(function (e) {
+            var num = +$("#p_number").val() + 1;
+            $("#p_number").val(num);
+        });
+
+        $('.minus').click(function (e) {
+            $("#p_number").val(Number($("#p_number").val())-1)
+
+        })
+
     });
+
+
+
 </script>
 
 </body>

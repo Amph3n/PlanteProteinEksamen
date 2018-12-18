@@ -25,8 +25,9 @@ p {
   margin: 0;
   padding: 0;
   font-family: 'montserrat', sans-serif;
-  font-size: 11pt;
-  font-weight: lighter; }
+  font-size: 9pt;
+  font-weight: lighter;
+  word-break: keep-all; }
 
 img {
   display: block;
@@ -95,6 +96,8 @@ button {
 
 .m_webmenu {
   display: none; }
+  .m_webmenu a {
+    font-family: 'Work Sans', sans-serif; }
 
 .m_voresprodukttx {
   margin: 10px 10px 10px 10px; }
@@ -234,6 +237,44 @@ button {
   margin-top: 10px;
   margin-left: 8px;
   margin-right: 8px; }
+
+.b_betingelser {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; }
+
+.overskriftbetingelser {
+  text-align: center;
+  margin-top: 30px; }
+
+.overskriftforsendelse {
+  text-align: center;
+  margin-top: 20px; }
+
+.overskriftbetalingsmetoder {
+  text-align: center;
+  margin-top: 20px; }
+
+.b_forsendelse {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; }
+
+.b_betalingsmetoder {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.blogtext_flex1 button, .blogtext_flex2 button {
+  color: white;
+  background-color: #636e4a;
+  margin-left: 10px;
+  margin-top: 12px; }
+
 
 .om_os {
   margin: 0 34px; }
@@ -410,7 +451,10 @@ button {
 .p_protein1, .p_protein2, .p_protein3, .p_protein4, .p_protein5, .p_protein6, .p_protein7, .p_protein8, .p_protein9, .p_protein10, .p_protein11, .p_protein12, .p_protein13, .p_protein14, .p_protein15 {
   text-align: left;
   margin-bottom: 20px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  text-decoration: none; }
+  .p_protein1 a, .p_protein2 a, .p_protein3 a, .p_protein4 a, .p_protein5 a, .p_protein6 a, .p_protein7 a, .p_protein8 a, .p_protein9 a, .p_protein10 a, .p_protein11 a, .p_protein12 a, .p_protein13 a, .p_protein14 a, .p_protein15 a {
+    text-decoration: none; }
 
 .p_product_grid {
   display: flex;
@@ -423,6 +467,9 @@ button {
   width: 46%;
   margin-left: 2%;
   margin-right: 2%; }
+  .p_product_grid2 a {
+    text-decoration: none;
+    color: black; }
 
 .p_img1 {
   background: url(../images/background_u.jpg) no-repeat center;
@@ -441,7 +488,7 @@ button {
   background-size: cover; }
 
 .p_img2:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover; }
 
 .p_pro2 {
@@ -465,7 +512,7 @@ button {
   background-size: cover; }
 
 .p_img4:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover; }
 
 .p_pro4 {
@@ -489,7 +536,7 @@ button {
   background-size: cover; }
 
 .p_img6:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover; }
 
 .p_pro6 {
@@ -513,7 +560,7 @@ button {
   background-size: cover; }
 
 .p_img8:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover; }
 
 .p_pro8 {
@@ -537,7 +584,7 @@ button {
   background-size: cover; }
 
 .p_img10:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover; }
 
 .p_pro10 {
@@ -561,7 +608,7 @@ button {
   background-size: cover; }
 
 .p_img12:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover; }
 
 .p_pro12 {
@@ -585,7 +632,7 @@ button {
   background-size: cover; }
 
 .p_img14:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover; }
 
 .p_pro14 {
@@ -609,7 +656,7 @@ button {
   background-size: cover; }
 
 .p_imgbar1:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover; }
 
 .p_bar1 {
@@ -635,6 +682,26 @@ button {
 
 .p_imgprodukt {
   background: url("../images/protein.png") no-repeat center;
+  background-size: contain;
+  height: 150px; }
+
+.p_produktdisplay1 {
+  background: url("../images/background_choc.jpg");
+  background-size: cover;
+  padding-bottom: 20px; }
+
+.p_imgprodukt1 {
+  background: url("../images/proteinpulver/produkt_1.png") no-repeat center;
+  background-size: contain;
+  height: 150px; }
+
+.p_produktdisplay2 {
+  background: url("../images/background_vani.jpg");
+  background-size: cover;
+  padding-bottom: 20px; }
+
+.p_imgprodukt2 {
+  background: url("../images/proteinpulver/produkt_2.png") no-repeat center;
   background-size: contain;
   height: 150px; }
 
@@ -674,6 +741,10 @@ button {
     text-decoration: none;
     border: none;
     width: 33%; }
+  .p_antaldiv input[type=number]::-webkit-inner-spin-button,
+  .p_antaldiv input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
 
 .minus {
   width: 33%; }
@@ -1035,6 +1106,26 @@ input {
     background-size: contain;
     height: 400px; }
 
+  .p_produktdisplay1 {
+    background: url("../images/background_choc.jpg");
+    background-size: cover;
+    padding-bottom: 40px; }
+
+  .p_imgprodukt1 {
+    background: url("../images/proteinpulver/produkt_1.png") no-repeat center;
+    background-size: contain;
+    height: 400px; }
+
+  .p_produktdisplay2 {
+    background: url("../images/background_vani.jpg");
+    background-size: cover;
+    padding-bottom: 40px; }
+
+  .p_imgprodukt2 {
+    background: url("../images/proteinpulver/produkt_2.png") no-repeat center;
+    background-size: contain;
+    height: 400px; }
+
   .whitebox {
     width: 75%;
     margin-left: auto;
@@ -1050,7 +1141,7 @@ input {
 
   .p_produkttx2 {
     margin-top: 20px;
-    width: 45%; }
+    width: 50%; }
 
   .p_flex2 {
     text-align: right;
@@ -1099,6 +1190,36 @@ input {
       background-color: #8da185;
       width: 200px;
       height: 25px; }
+
+  .overskriftbetingelser {
+    padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 56px 0 0 0; }
+
+  .overskriftbetalingsmetoder {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+
+  .overskriftforsendelse {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+
+  .b_betingelser {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .b_betalingsmetoder {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px; }
+
+  .b_forsendelse {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
 
   .blogsideoverskrift {
     padding-top: 20px; }
@@ -1285,32 +1406,16 @@ input {
     font-size: 15pt; }
 
   .menupunkt1 {
-    grid-column: 3;
-    /*grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;*/ }
+    grid-column: 3; }
 
   .menupunkt2 {
-    grid-column: 4;
-    /* grid-column-start: 5;
-     grid-column-end: 6;
-     grid-row-start: 1;
-     grid-row-end: 2;*/ }
+    grid-column: 4; }
 
   .menupunkt3 {
-    grid-column: 5;
-    /* grid-column-start: 6;
-     grid-column-end: 7;
-     grid-row-start: 1;
-     grid-row-end: 2;*/ }
+    grid-column: 5; }
 
   .menupunkt4 {
-    grid-column: 6;
-    /* grid-column-start: 7;
-     grid-column-end: 8;
-     grid-row-start: 1;
-     grid-row-end: 2;*/ }
+    grid-column: 6; }
 
   .m_voresproduktoverskrift {
     text-align: center;
