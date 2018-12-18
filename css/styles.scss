@@ -375,7 +375,7 @@ width: 60%;
 
 
   .om_os{
-    margin: 0 10px;
+    margin: 0 34px;
   }
 
   .overskriftomos{
@@ -393,6 +393,8 @@ width: 60%;
     margin-bottom: 25px;
   }
 
+
+
  .billederomos{
    width: 80%;
    margin: auto;
@@ -401,26 +403,27 @@ width: 60%;
 
  .kvalitet{
    text-align: center;
-   margin-left: auto;
-   margin-right: auto;
+   margin-left: 12%;
+   margin-right: 12%;
    margin-bottom: 20px;
-   line-height: 15pt;
+   line-height: 17pt;
+
  }
 
  .pengeretur{
    text-align: center;
-   margin-left: auto;
-   margin-right: auto;
+   margin-left: 12%;
+   margin-right: 12%;
    margin-bottom: 20px;
-   line-height: 15pt;
+   line-height: 17pt;
  }
 
  .kundeservice{
    text-align: center;
-   margin-left: auto;
-   margin-right: auto;
+   margin-left: 12%;
+   margin-right: 12%;
    margin-bottom: 20px;
-   line-height: 15pt;
+   line-height: 17pt;
  }
 
 .flex-container2 {
@@ -458,19 +461,12 @@ width: 60%;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+
 }
 
 .q1{
-  //width: 45vw;
   text-align: left;
 }
-
-.q1_1{
-
-
-}
-
-
 
 .o_img1, .o_img2, .o_img3 {
   width: 100%;
@@ -479,7 +475,7 @@ width: 60%;
 }
 
 .questions {
-  //width: 90%;
+  width: 90%;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
   margin-top: 20pt;
@@ -495,17 +491,18 @@ width: 60%;
 }
 
 .FAQ{
- // margin: 5px 2%;
   text-align: center;
+  width: 90%;
+  margin-top: 9%;
 }
 
 .q1_1{
   text-align: center;
-  margin: auto;
  // margin-right: 2%;
   position: absolute;
   right: 0;
-  margin-top: 9px
+  margin-top: 9px;
+  margin-right: 6%;
 }
 
 .q1{
@@ -1323,7 +1320,7 @@ input{
     }
 
     .hvorfor_vælge_os {
-      margin: 10px 12%;
+      margin: 0 14%;
       text-align: center;
       line-height: 27px;
     }
@@ -1338,6 +1335,10 @@ input{
       margin-left: auto;
       margin-right: auto;
     }
+
+  .FAQ{
+    margin-top: 30pt;
+  }
 
     .kvalitet {
       width: 28%;
@@ -1381,7 +1382,8 @@ input{
       width: 60%;
       margin: auto;
       font-family: 'Montserrat', sans-serif;
-      margin-top: 20pt;
+      margin-top: 35pt;
+      margin-bottom: 40pt;
 
       i {
         width: 10%;
@@ -1402,8 +1404,7 @@ input{
     .q1_1 {
       text-align: center;
       margin: auto;
-      width: 100px
-
+      margin-right: 25%;
     }
 
     .q1 {
@@ -1414,7 +1415,32 @@ input{
       display: flex;
     }
 
-    // om os slut
+  .spg1:hover{
+    color: #a8b58a;
+  }
+
+  .spg2:hover{
+    color: #a8b58a;
+  }
+
+  .spg3:hover{
+    color: #a8b58a;
+  }
+
+  .spg4:hover{
+    color: #a8b58a;
+  }
+
+  .spg5:hover{
+    color: #a8b58a;
+  }
+
+  .spg6:hover{
+    color: #a8b58a;
+  }
+
+
+  // om os slut
 
     .dropdown {
       display: none;
