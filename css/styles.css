@@ -625,7 +625,6 @@ button {
   background: url("../images/proteinpulver/rawfusion-bar.png") no-repeat center;
   background-size: cover; }
 
-
 .p_produktdisplay {
   background: url("../images/background_vani.jpg");
   background-size: cover;
@@ -692,16 +691,8 @@ button {
     width: 200px;
     height: 25px; }
 
-.blog button {
-  padding: 5px;
-  margin-left: 8px;
-  margin-top: 10px;
-  background-color: #636e4a;
-  color: white; }
-
 .blogheader {
   display: none; }
-
 
 .blog_knap1:hover, .blog_knap2:hover {
   cursor: pointer; }
@@ -999,20 +990,6 @@ input {
     text-align: center;
     height: 100%; }
 
-  .backgroundpic {
-    display: block;
-    background: url("../images/artboard_2.jpg") no-repeat;
-    background-size: cover; }
-
-  .helpbox {
-    display: block;
-    padding: 7% 8% 7% 8%; }
-
-  .shadowbox {
-    background-color: white;
-    display: block;
-    box-shadow: -8px 8px 20px 10px rgba(0, 0, 0, 0.5); }
-
   .blogheader {
     display: block;
     display: flex; }
@@ -1022,91 +999,6 @@ input {
 
   .ananas {
     margin: 20px; }
-
-  .blogsideoverskrift {
-    padding-top: 20px; }
-
-  .blogsideoverskrifttx {
-    margin-right: 250px;
-    margin-left: 250px;
-    text-align: center;
-    padding-bottom: 15px; }
-
-  .skyr {
-    margin: 15px; }
-
-  .ananas {
-    margin: 15px; }
-
-  .blogside {
-    text-align: center;
-    margin-right: 200px;
-    margin-left: 200px; }
-
-  .julekugler, .bounty {
-    height: 300px;
-    width: 90%;
-    background-size: cover;
-    margin-right: auto;
-    margin-left: auto; }
-
-  .blogsidetx {
-    text-align: center;
-    margin-right: 25%;
-    margin-left: 25%; }
-
-  #toggle1, #toggle2 {
-    margin-right: auto;
-    margin-left: auto; }
-
-  .rolldown1, .rolldown2 {
-    text-align: left; }
-
-  .p_produktoverskrift {
-    text-align: center;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px; }
-
-  .p_produktoverskrifttx {
-    margin-top: 10px; }
-
-  .p_produkterprotein {
-    text-align: center;
-    margin-top: 40px; }
-
-  .p_pro1, .p_pro2, .p_pro3, .p_pro4, .p_pro5, .p_pro6, .p_pro7, .p_pro8, .p_pro9, .p_pro10, .p_pro11, .p_pro12, .p_pro13, .p_pro14, .p_pro15 {
-    height: 25vh;
-    width: 15vw;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto; }
-
-  .p_bar1, .p_bar2 {
-    height: 25vh;
-    width: 15vw;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto; }
-
-  .p_product_grid {
-    display: flex;
-    flex-direction: row;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 20px; }
-
-  .p_product_grid2 {
-    display: flex;
-    flex-direction: column;
-    width: 29%;
-    margin-left: 2%;
-    margin-right: 2%; }
 
   .p_produktdisplay {
     background: url("../images/background_vani.jpg");
@@ -1182,6 +1074,105 @@ input {
       background-color: #8da185;
       width: 200px;
       height: 25px; }
+
+  .blogsideoverskrift {
+    padding-top: 20px; }
+
+  .blogsideoverskrifttx {
+    margin-right: 250px;
+    margin-left: 250px;
+    text-align: center;
+    padding-bottom: 15px; }
+
+  .skyr {
+    margin: 15px; }
+
+  .ananas {
+    margin: 15px; }
+
+  .blogside {
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px; }
+
+  .julekugler, .bounty {
+    height: 300px;
+    width: 90%;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto; }
+
+  .blogsidetx {
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%; }
+
+  #toggle1, #toggle2 {
+    margin-right: auto;
+    margin-left: auto; }
+
+  .rolldown1, .rolldown2 {
+    text-align: left; }
+
+  .backgroundpic {
+    display: block;
+    background: url("../images/artboard_2.jpg") no-repeat;
+    background-size: cover; }
+
+  .helpbox {
+    display: block;
+    padding: 7% 8% 7% 8%; }
+
+  .shadowbox {
+    background-color: white;
+    display: block;
+    box-shadow: -8px 8px 20px 10px rgba(0, 0, 0, 0.5); }
+
+  .p_produktoverskrift {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px; }
+
+  .p_produktoverskrifttx {
+    margin-top: 10px; }
+
+  .p_produkterprotein {
+    text-align: center;
+    margin-top: 40px; }
+
+  .p_pro1, .p_pro2, .p_pro3, .p_pro4, .p_pro5, .p_pro6, .p_pro7, .p_pro8, .p_pro9, .p_pro10, .p_pro11, .p_pro12, .p_pro13, .p_pro14, .p_pro15 {
+    height: 25vh;
+    width: 15vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+
+  .p_bar1, .p_bar2 {
+    height: 25vh;
+    width: 15vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+
+  .p_product_grid {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 20px; }
+
+  .p_product_grid2 {
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    margin-left: 2%;
+    margin-right: 2%; }
 
   .k_kontaktoverskrift {
     text-align: center;
@@ -1269,32 +1260,16 @@ input {
     font-size: 15pt; }
 
   .menupunkt1 {
-    grid-column: 3;
-    /*grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;*/ }
+    grid-column: 3; }
 
   .menupunkt2 {
-    grid-column: 4;
-    /* grid-column-start: 5;
-     grid-column-end: 6;
-     grid-row-start: 1;
-     grid-row-end: 2;*/ }
+    grid-column: 4; }
 
   .menupunkt3 {
-    grid-column: 5;
-    /* grid-column-start: 6;
-     grid-column-end: 7;
-     grid-row-start: 1;
-     grid-row-end: 2;*/ }
+    grid-column: 5; }
 
   .menupunkt4 {
-    grid-column: 6;
-    /* grid-column-start: 7;
-     grid-column-end: 8;
-     grid-row-start: 1;
-     grid-row-end: 2;*/ }
+    grid-column: 6; }
 
   .m_voresproduktoverskrift {
     text-align: center;
