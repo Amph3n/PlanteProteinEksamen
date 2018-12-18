@@ -89,7 +89,7 @@
 </header>
 
 <div class="test">
-    
+
 </div>
 
 <div class="backgroundpic">
@@ -101,20 +101,29 @@
 
 
 <content>
+
+    <div class="blogheader">
+        <div class="ananas">
+            <img src="images/ananas.jpg"/>
+        </div>
+        <div class="skyr">
+            <img src="images/skyr.jpg"/>
+        </div>
+    </div>
+
     <div class="blogsideoverskrift">
         <h1>Velkommen til bloggen</h1>
     </div>
 
+
     <div class="blogsideoverskrifttx">
         <p>Velkommen til Plante-proteins blog. Her finder du en masse sunde opskrifter, samt inspiration til vegetar snacks, der smager himmelsk og tilfredsstiller den søde tand.</p>
     </div>
+
     <div class="blogside">
-        <div class="blogsideunderoverskrift">
 
-        </div>
-
-        <div class="blogside">
-            <img src="images/balls.jpg"/>
+        <div class="julekugler">
+        <!--<img src="images/balls.jpg"/>!-->
         </div>
 
         <div class="blogsidetx">
@@ -124,13 +133,32 @@
             </p>
         </div>
         <div class="rolldown2">
-            <p>hej</p>
+            <p> De er helt uden raffineret sukker, og er perfekt når den lille sult rammer eller sukkertangen slår til. Som en ekstra bonus, er de super nemme og hurtige at lave!
+                Det som du skal bruge (ca. 16 stk.): <br> <br>
+                -  1 dl kokosolie <br>
+                -  3 spsk. stærk kaffe <br>
+                -  3 spsk. sirup, f.eks. kokossirup, agavesirup eller Yaconsirup <br>
+                -  5 dl dadler <br>
+                -  2 dl havregryn <br>
+                -  2 dl kokosmel <br>
+                -  3 spsk. rå kakaopulver <br>
+                -  1 tsk. Kanelpulver <br>
+                -  3 spsk. Vegansk proteinpulver (evt med chokolade fra Scitec Nutrition)<br>
+                -  Drys: Groft kokosmel <br> <br>
+                Fremgangsmåde: <br>
+                Smelt kokosolien
+                Blend alle ingredienserne i en foodprossesor. Massen skal være fast og kompakt. Føles massen for våd, tilsæt da lidt ekstra fra de tørre ingredienser, og omvendt hvis den er for tør.
+                Lad massen hvile i 15-20 minutter i køleskabet.
+                Rul nu ca. 16 små jule kugler og vend dem i det grove kokosmel.
+                De sunde julekugler kan holde sig i køleskabet i op til en uge, i en lukket Tupperware i køleskabet.
+            </p>
         </div>
 
-        <button id="toggle2">Læs mere</button>
+        <button id="toggle2"><p id="knap_text1">Læs mere</p></button>
 
-        <div class="blogside">
-            <img src="images/cocos.jpg"/>
+
+        <div class="bounty">
+           <!-- <img src="images/cocos.jpg"/>!-->
         </div>
 
         <div class="blogsidetx">
@@ -139,10 +167,24 @@
         </div>
 
         <div class="rolldown1">
-            <p>hej</p>
+            <p>Opskriften er uden tilsat sukker, glutenfri og rækker til ca. 15-20 små Bounty barer.
+                Det du skal bruge er: <br> <br>
+                -  1 dåse á 400 ml fuldfed kokosmælk (kun kokosfedtet)<br>
+                -  150 g groft kokosmel<br>
+                -  1 tsk. vaniljepulver<br>
+                -  Lidt havsalt<br>
+                -  3 spsk. Vanilje proteinpulver f.eks. SunWarrior (vegansk)<br>
+                -  80 g mørk chokolade, f.eks. ISIS (sukkerfri) eller Ichok (vegansk)<br> <br>
+                Din kokosmælk skal have stået på køl i en times tid, så kokosfedtet ligger i toppen og er stivnet. Kokosfedtet hældes nu ned i en skål (ca. 200 ml).
+                Kokosfedtet blandes sammen med de tørre ingredienser. <br>
+                Fordel massen i en fryse venlig beholder, belagt med bagepapir (dette gør det nemmere at få massen op igen).
+                Lad massen stå i fryseren i ca. 30 minutter. Skær nu nogle små barer ud med en skarp kniv. <br>
+                Smelt chokoladen og vend Bounty barerne i chokolade. Evt. flere gange, for et tykkere lag chokolade. Drys med kokosflager ovenpå.
+                Opbevar dem i en tupperware.
+            </p>
         </div>
 
-        <button id="toggle1">Læs mere</button>
+        <button id="toggle1"><p id="knap_text">Læs mere</p></button>
 
 
     </div>
@@ -238,12 +280,35 @@
         $('.button').click(function (e) {
             $('#myDropdown').slideToggle(200);
         });
-        $("#toggle1").click(function(){
-            $(".rolldown1").toggle();
+
+        var open = 0;
+
+            $("#toggle1").click(function () {
+                if (open == 1){
+                    $(".rolldown1").stop().slideUp(500);
+                    open = 0;
+                    $("#knap_text").text('Læs mere')
+                }
+                else {
+                    $(".rolldown1").stop().slideDown(500);
+                    open = 1;
+                    $("#knap_text").text('Se mindre')
+                }
+            });
+
+        $("#toggle2").click(function () {
+            if (open == 1){
+                $(".rolldown2").stop().slideUp(500);
+                open = 0;
+                $("#knap_text1").text('Læs mere')
+            }
+            else {
+                $(".rolldown2").stop().slideDown(500);
+                open = 1;
+                $("#knap_text1").text('Se mindre')
+            }
         });
-        $("#toggle2").click(function(){
-            $(".rolldown2").toggle();
-        });
+
     });
 </script>
 
