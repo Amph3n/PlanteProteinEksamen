@@ -1260,32 +1260,16 @@ input {
     font-size: 15pt; }
 
   .menupunkt1 {
-    grid-column: 3;
-    /*grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;*/ }
+    grid-column: 3; }
 
   .menupunkt2 {
-    grid-column: 4;
-    /* grid-column-start: 5;
-     grid-column-end: 6;
-     grid-row-start: 1;
-     grid-row-end: 2;*/ }
+    grid-column: 4; }
 
   .menupunkt3 {
-    grid-column: 5;
-    /* grid-column-start: 6;
-     grid-column-end: 7;
-     grid-row-start: 1;
-     grid-row-end: 2;*/ }
+    grid-column: 5; }
 
   .menupunkt4 {
-    grid-column: 6;
-    /* grid-column-start: 7;
-     grid-column-end: 8;
-     grid-row-start: 1;
-     grid-row-end: 2;*/ }
+    grid-column: 6; }
 
   .m_voresproduktoverskrift {
     text-align: center;
