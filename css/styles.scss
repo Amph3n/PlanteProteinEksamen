@@ -34,6 +34,7 @@ p {
   font-family: 'montserrat', sans-serif;
   font-size: 9pt;
   font-weight: lighter;
+  word-break: keep-all;
 }
 
 // Sikrer billeder er responsive
@@ -554,6 +555,11 @@ text-align: center;
   text-align: left;
   margin-bottom: 20px;
   margin-top: 10px;
+  text-decoration: none;
+
+  a{
+    text-decoration: none;
+  }
 }
 
 
@@ -571,6 +577,10 @@ margin-top: 20px;
   margin-left: 2%;
   margin-right: 2%;
 
+  a{
+    text-decoration: none;
+    color: black;
+  }
 }
 
 
@@ -599,7 +609,7 @@ margin-top: 20px;
 }
 
 .p_img2:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover;
  }
 
@@ -632,7 +642,7 @@ margin-top: 20px;
 }
 
 .p_img4:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -662,7 +672,7 @@ margin-top: 20px;
 }
 
 .p_img6:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -693,7 +703,7 @@ margin-top: 20px;
 }
 
 .p_img8:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -723,7 +733,7 @@ margin-top: 20px;
 }
 
 .p_img10:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -753,7 +763,7 @@ margin-top: 20px;
 }
 
 .p_img12:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -783,7 +793,7 @@ margin-top: 20px;
 }
 
 .p_img14:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -815,7 +825,7 @@ margin-top: 20px;
 }
 
 .p_imgbar1:hover {
-  background: url("../images/background_vani.jpg") no-repeat center;
+  background: url("../images/background_choc.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -856,6 +866,31 @@ margin-top: 20px;
   background-size: contain;
   height: 150px;
 }
+
+.p_produktdisplay1 {
+  background: url("../images/background_choc.jpg");
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+.p_imgprodukt1 {
+  background: url("../images/proteinpulver/produkt_1.png") no-repeat center;
+  background-size: contain;
+  height: 150px;
+}
+
+.p_produktdisplay2 {
+  background: url("../images/background_vani.jpg");
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+.p_imgprodukt2 {
+  background: url("../images/proteinpulver/produkt_2.png") no-repeat center;
+  background-size: contain;
+  height: 150px;
+}
+
 
 .whitebox{
   width: 90%;
@@ -912,6 +947,13 @@ margin-top: 5px;
     text-decoration: none;
     border: none;
     width: 33%;
+
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
   }
 
 }
@@ -1377,6 +1419,32 @@ input{
     height: 400px;
   }
 
+  .p_produktdisplay1 {
+    background: url("../images/background_choc.jpg");
+    background-size: cover;
+    padding-bottom: 40px;
+  }
+
+  .p_imgprodukt1 {
+    background: url("../images/proteinpulver/produkt_1.png") no-repeat center;
+    background-size: contain;
+    height: 400px;
+  }
+
+
+  .p_produktdisplay2 {
+    background: url("../images/background_vani.jpg");
+    background-size: cover;
+    padding-bottom: 40px;
+  }
+
+  .p_imgprodukt2 {
+    background: url("../images/proteinpulver/produkt_2.png") no-repeat center;
+    background-size: contain;
+    height: 400px;
+  }
+
+
   .whitebox{
     width: 75%;
     margin-left: auto;
@@ -1401,7 +1469,7 @@ input{
 
   .p_produkttx2{
     margin-top: 20px;
-    width: 45%;
+    width: 50%;
   }
 
   .p_flex1{
