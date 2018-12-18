@@ -26,7 +26,8 @@ p {
   padding: 0;
   font-family: 'montserrat', sans-serif;
   font-size: 9pt;
-  font-weight: lighter; }
+  font-weight: lighter;
+  word-break: keep-all; }
 
 img {
   display: block;
@@ -1080,7 +1081,7 @@ input {
 
   .p_produkttx2 {
     margin-top: 20px;
-    width: 45%; }
+    width: 50%; }
 
   .p_flex2 {
     text-align: right;
