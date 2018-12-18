@@ -236,7 +236,7 @@ button {
   margin-right: 8px; }
 
 .om_os {
-  margin: 0 25px; }
+  margin: 0 10px; }
 
 .overskriftomos {
   text-align: center; }
@@ -254,9 +254,6 @@ button {
   width: 80%;
   margin: auto;
   margin-bottom: 15px; }
-
-.hvorfor_vælge_os {
-  margin: 0 25px; }
 
 .kvalitet {
   text-align: center;
@@ -311,24 +308,6 @@ button {
 .q1 {
   text-align: left; }
 
-.spg1:hover {
-  color: #a8b58a; }
-
-.spg2:hover {
-  color: #a8b58a; }
-
-.spg3:hover {
-  color: #a8b58a; }
-
-.spg4:hover {
-  color: #a8b58a; }
-
-.spg5:hover {
-  color: #a8b58a; }
-
-.spg6:hover {
-  color: #a8b58a; }
-
 .o_img1, .o_img2, .o_img3 {
   width: 100%;
   height: 100%;
@@ -350,12 +329,10 @@ button {
   margin: auto;
   position: absolute;
   right: 0;
-  margin-top: 9px;
-  margin-right: 10pt; }
+  margin-top: 9px; }
 
 .q1 {
-  position: relative;
-  margin-left: 10pt; }
+  position: relative; }
 
 #a1 {
   padding: 20px;
@@ -859,8 +836,8 @@ input {
     text-align: center;
     margin-top: 20px; }
 
-  .hvorfor_vælge_os {
-    margin: 20px 10%;
+  .hvorfor_v├ªlge_os {
+    margin: 10px 12%;
     text-align: center;
     line-height: 27px; }
 
@@ -869,7 +846,7 @@ input {
     flex-direction: row; }
 
   .billederomos {
-    width: 180px;
+    width: 150px;
     margin-left: auto;
     margin-right: auto; }
 
@@ -923,9 +900,7 @@ input {
   .q1_1 {
     text-align: center;
     margin: auto;
-    width: 100px;
-    margin-right: 25%;
-    line-height: 30pt; }
+    width: 100px; }
 
   .q1 {
     width: 40vw; }
