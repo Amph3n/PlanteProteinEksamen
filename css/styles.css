@@ -238,11 +238,43 @@ button {
   margin-left: 8px;
   margin-right: 8px; }
 
+.b_betingelser {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; }
+
+.overskriftbetingelser {
+  text-align: center;
+  margin-top: 30px; }
+
+.overskriftforsendelse {
+  text-align: center;
+  margin-top: 20px; }
+
+.overskriftbetalingsmetoder {
+  text-align: center;
+  margin-top: 20px; }
+
+.b_forsendelse {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; }
+
+.b_betalingsmetoder {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
 .blogtext_flex1 button, .blogtext_flex2 button {
   color: white;
   background-color: #636e4a;
   margin-left: 10px;
   margin-top: 12px; }
+
 
 .om_os {
   margin: 0 10px; }
@@ -941,7 +973,7 @@ input {
     text-align: center;
     margin-top: 20px; }
 
-  .hvorfor_v├ªlge_os {
+  .hvorfor_vælge_os {
     margin: 10px 12%;
     text-align: center;
     line-height: 27px; }
@@ -1133,6 +1165,36 @@ input {
       background-color: #8da185;
       width: 200px;
       height: 25px; }
+
+  .overskriftbetingelser {
+    padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 56px 0 0 0; }
+
+  .overskriftbetalingsmetoder {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+
+  .overskriftforsendelse {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+
+  .b_betingelser {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .b_betalingsmetoder {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px; }
+
+  .b_forsendelse {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
 
   .blogsideoverskrift {
     padding-top: 20px; }
