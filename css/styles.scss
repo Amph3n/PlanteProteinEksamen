@@ -1587,7 +1587,6 @@ input{
       margin-left: 10vw;
       margin-right: 10vw;
       margin-top: 20px;
-
     }
 
     .p_product_grid2 {
@@ -1596,7 +1595,6 @@ input{
       width: 29%;
       margin-left: 2%;
       margin-right: 2%;
-
     }
 
     //produkter slut1
@@ -1629,7 +1627,6 @@ input{
       width: 60%;
       margin-right: auto;
       margin-left: auto;
-
     }
 
     .k_kontakticons1 {
@@ -1638,6 +1635,7 @@ input{
       margin-left: auto;
       margin-right: auto;
     }
+
     .k_kontakticons2 {
       width: 100px;
       height: 90px;
@@ -1668,7 +1666,6 @@ input{
       margin-right: 15px;
       //font-size: 18pt;
       color: white;
-
     }
 
     .cart2 {
@@ -1692,14 +1689,11 @@ input{
     }
 
     .menupunkt1 a, .menupunkt2 a, .menupunkt3 a, .menupunkt4 a {
-
       text-decoration: none;
       color: white;
-
     }
 
     .menupunkt1, .menupunkt2, .menupunkt3, .menupunkt4 {
-
       grid-row: 1;
       @include center;
       font-size: 15pt;
@@ -1708,39 +1702,18 @@ input{
 
     .menupunkt1 {
       grid-column: 3;
-      /*grid-column-start: 4;
-      grid-column-end: 5;
-      grid-row-start: 1;
-      grid-row-end: 2;*/
-      // font-size: 18pt;
-
-    }
+        }
 
     .menupunkt2 {
       grid-column: 4;
-      /* grid-column-start: 5;
-       grid-column-end: 6;
-       grid-row-start: 1;
-       grid-row-end: 2;*/
-      //font-size: 18pt;
     }
 
     .menupunkt3 {
       grid-column: 5;
-      /* grid-column-start: 6;
-       grid-column-end: 7;
-       grid-row-start: 1;
-       grid-row-end: 2;*/
-      //font-size: 18pt;
     }
 
     .menupunkt4 {
       grid-column: 6;
-      /* grid-column-start: 7;
-       grid-column-end: 8;
-       grid-row-start: 1;
-       grid-row-end: 2;*/
-      //font-size: 18pt;
     }
 
     .m_voresproduktoverskrift {
