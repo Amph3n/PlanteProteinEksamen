@@ -1,8 +1,11 @@
+@charset "utf-8";
 // Alt der gælder for mobil og højere
+
 
 * { // Gælder alt på hele siden
   -webkit-box-sizing: border-box; // -webkit- browserunderstøttelse
   box-sizing: border-box; // Bokse har altid den størrelse man giver uanset om der tilføjes margen mv.
+
 }
 
 body {
@@ -310,6 +313,50 @@ width: 60%;
 
 
 //forside slut
+
+//footer
+
+.b_betingelser{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+
+}
+
+.overskriftbetingelser{
+  text-align:center;
+  margin-top: 30px;
+}
+
+.overskriftforsendelse{
+  text-align:center;
+  margin-top: 20px;
+}
+.overskriftbetalingsmetoder{
+  text-align:center;
+  margin-top: 20px;
+}
+
+.b_forsendelse{
+
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+
+}
+
+.b_betalingsmetoder
+{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+//footer slut
 
 // om os start
 
@@ -1465,6 +1512,45 @@ input{
 
   //produktside slut
 
+  //footer
+  .overskriftbetingelser{
+    padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 56px 0 0 0;
+
+  }
+
+  .overskriftbetalingsmetoder{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .overskriftforsendelse{
+    margin-top: 30px;
+    margin-bottom:30px;
+  }
+
+  .b_betingelser{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .b_betalingsmetoder{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 50px;
+  }
+
+  .b_forsendelse{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  //footer slut
+
 
   .blogsideoverskrift{
   padding-top: 20px;
@@ -1920,10 +2006,10 @@ input{
       grid-template-rows: 1fr;
     }
 
-}
     //footer slut
 
 
+}
 
 @media screen and (min-width: 1200px) {
   // Alt der ændres i computer fra mobil, tablet stående og tablet liggende
