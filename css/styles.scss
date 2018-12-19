@@ -37,7 +37,7 @@ p {
   font-family: 'montserrat', sans-serif;
   font-size: 10pt;
   font-weight: lighter;
-  word-break: keep-all;
+  word-wrap: break-word;
   line-height: 23px;
 }
 
@@ -379,6 +379,7 @@ footer{
   text-align:center;
   margin-top: 20px;
 }
+
 .overskriftbetalingsmetoder{
   text-align:center;
   margin-top: 20px;
@@ -1083,7 +1084,7 @@ margin-top: 5px;
 .blogsideoverskrift{
   //font-size: 8pt;
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .blogoverskrifttx{
@@ -1151,7 +1152,7 @@ margin-top: 5px;
 //Kontakt start
 .k_kontaktoverskrift{
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .k_kontakttx{
@@ -1362,8 +1363,12 @@ input{
   // Alt der ændres i tablet liggende fra mobil og tablet stående
 
   p{
-
     line-height: 27px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 23pt;
+
   }
 
     // om os
@@ -1392,7 +1397,7 @@ input{
   }
 
     .om_os {
-      margin: 20px 22%;
+      margin: 0px 22%;
       text-align: center;
       margin-bottom: 50px;
       padding-top: 80px;
@@ -1725,7 +1730,6 @@ input{
     padding-top: 80px;
     margin-top: 0;
     margin-bottom: 30px;
-    padding: 56px 0 0 0;
 
   }
 
