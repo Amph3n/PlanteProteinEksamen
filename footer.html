@@ -100,6 +100,8 @@
 
 <content>
 
+    <div id="toTop"><span class="fas fa-arrow-up"></span></div>
+
     <div class="overskriftbetingelser">
         <h2><b>Betingelser</b></h2>
     </div>
@@ -241,6 +243,11 @@
     $(document).ready(function (e) {
         $('.button').click(function (e) {
             $('#myDropdown').stop().slideToggle(200);
+        });
+
+        $("#toTop").click(function () {
+
+            $("html, body").stop().animate({scrollTop: 0}, 1000);
         });
     });
 </script>

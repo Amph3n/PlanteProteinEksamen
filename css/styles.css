@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   font-family: 'Work Sans', sans-serif;
   font-weight: normal;
-  font-size: 11pt; }
+  font-size: 18pt; }
 
 ul, ol {
   margin: 0;
@@ -25,7 +25,7 @@ p {
   margin: 0;
   padding: 0;
   font-family: 'montserrat', sans-serif;
-  font-size: 9pt;
+  font-size: 10pt;
   font-weight: lighter;
   word-break: keep-all; }
 
@@ -81,7 +81,7 @@ button {
 
 .dropdown-content {
   display: none;
-  background-color: #f5ede2;
+  background-color: white;
   min-width: 160px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -89,15 +89,24 @@ button {
   right: 0; }
 
 .dropdown-content a {
-  color: white;
+  color: #636e4a;
   padding: 12px 16px;
   text-decoration: none;
-  display: block; }
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 10pt; }
 
 .m_webmenu {
   display: none; }
   .m_webmenu a {
     font-family: 'Work Sans', sans-serif; }
+  .m_webmenu .on_page {
+    color: #636e4a; }
+
+#toTop {
+  display: none; }
+  #toTop svg {
+    display: none; }
 
 .m_voresprodukttx {
   margin: 10px 10px 10px 10px; }
@@ -238,6 +247,17 @@ button {
   margin-left: 8px;
   margin-right: 8px; }
 
+.blogtext_flex1 h2, .blogtext_flex2 h2 {
+  font-size: 14pt; }
+.blogtext_flex1 button, .blogtext_flex2 button {
+  color: white;
+  font-size: 12px;
+  background-color: #636e4a;
+  margin-left: 10px;
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 7px; }
+
 .b_betingelser {
   width: 80%;
   margin-left: auto;
@@ -268,13 +288,6 @@ button {
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px; }
-
-.blogtext_flex1 button, .blogtext_flex2 button {
-  color: white;
-  background-color: #636e4a;
-  margin-left: 10px;
-  margin-top: 12px; }
-
 
 .om_os {
   margin: 0 34px; }
@@ -868,6 +881,8 @@ button {
   grid-template-rows: auto;
   text-align: center;
   background-color: #f5ede2; }
+  .m_footer h1, .m_footer h2 {
+    font-size: 12pt; }
 
 .m_footertx {
   margin-top: 30px; }
@@ -875,6 +890,12 @@ button {
 .m_nyhedstx {
   margin-top: 50px;
   margin-bottom: 50px; }
+  .m_nyhedstx button {
+    color: white;
+    font-size: 11px;
+    background-color: #636e4a;
+    padding: 5px;
+    border-radius: 6px; }
 
 .m_kontaktfooter {
   margin-top: 20px;
@@ -960,6 +981,25 @@ input {
     margin-left: 2%;
     margin-right: 2%; } }
 @media screen and (min-width: 992px) {
+  #toTop {
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #a8b58a;
+    border-radius: 25px; }
+    #toTop svg {
+      display: block;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      position: absolute;
+      color: white; }
+
   .om_os {
     margin: 20px 22%;
     text-align: center;

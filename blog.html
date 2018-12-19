@@ -67,7 +67,7 @@
                 <a href="kontakt.html">Kontakt</a></div>
 
             <div class="menupunkt4">
-                <a href="blog.html">Blog</a></div>
+                <a href="blog.html" class="on_page">Blog</a></div>
 
 
         </div>
@@ -109,6 +109,8 @@
 
 
 <content>
+
+    <div id="toTop"><span class="fas fa-arrow-up"></span></div>
 
     <div class="blogheader">
         <div class="ananas">
@@ -286,7 +288,12 @@
 
     $(document).ready(function (e) {
         $('.button').click(function (e) {
-            $('#myDropdown').slideToggle(200);
+            $('#myDropdown').stop().slideToggle(200);
+        });
+
+        $("#toTop").click(function () {
+
+            $("html, body").stop().animate({scrollTop: 0}, 1000);
         });
 
         var open = 0;

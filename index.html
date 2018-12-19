@@ -95,6 +95,7 @@
     <div class="shadowbox">
 <content>
 
+    <div id="toTop"><span class="fas fa-arrow-up"></span></div>
 
     <div class="m_motivationpic">
         <img src="images/quote.jpg">
@@ -102,7 +103,7 @@
 
     <div class="m_voresprodukter">
         <div class="m_voresproduktoverskrift">
-            <h1>Vores Produkter</h1>
+            <h1>Vores produkter</h1>
         </div>
         <div class="m_voresprodukttx">
 
@@ -120,7 +121,7 @@
         </div>
 
 <div class="hvorforplanteoverskrift">
-    <h2>Hvorfor Planteprotein</h2>
+    <h2>Hvorfor planteprotein?</h2>
 </div>
         <div class="hvorforplante">
             <div class="hvorfor1">
@@ -176,14 +177,14 @@
 
                 <div class="blogtx">
                     <h2>Sunde julekugler</h2>
-                    <p>Sunde jule kugler med kokos.
+                    <p>Sunde julekugler med kokos.
                         Her får du en opskrift på hjemmelavet julekugler med kokos, som er perfekt til alle aldersgrupper.
                     </p>
                 </div>
 
 
 
-                <button class="blog_knap1" type="submit">Læs mere her</button>
+                <button class="blog_knap1" type="submit">LÆS MERE HER</button>
 
             </div>
 
@@ -200,10 +201,13 @@
                     <p>Bounty barer har altid været et kæmpe hit, så her får i en opskrift på sunde Bounty barer, som er simple, hurtige og kun lavet på 6 ingredienser. </p>
                 </div>
 
-                <button class="blog_knap2" name="læsmere" type="submit">Læs mere her</button>
+                <button class="blog_knap2" name="læsmere" type="submit">LÆS MERE HER</button>
             </div>
         </div>
     </div>
+
+
+
 
 </content>
 
@@ -288,6 +292,7 @@
             </div>
         </footer>
 
+
 </div>
 </div>
 </div>
@@ -297,7 +302,12 @@
 
     $(document).ready(function (e) {
         $('.button').click(function (e) {
-            $('#myDropdown').slideToggle(200);
+            $('#myDropdown').stop().slideToggle(200);
+        });
+
+        $("#toTop").click(function () {
+
+            $("html, body").stop().animate({scrollTop: 0}, 1000);
         });
     });
 </script>

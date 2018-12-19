@@ -51,7 +51,7 @@
 
 
             <div class="menupunkt1">
-                <a href="produkter.html">Produkter</a></div>
+                <a href="produkter.html" class="on_page">Produkter</a></div>
 
             <div class="menupunkt2">
                 <a href="om_os.html">Om os</a></div>
@@ -98,6 +98,9 @@
 
 
 <content>
+
+    <div id="toTop"><span class="fas fa-arrow-up"></span></div>
+
     <div class="p_produktoverskrift">
         <h1>Produkter</h1>
 
@@ -357,7 +360,12 @@
 
     $(document).ready(function (e) {
         $('.button').click(function (e) {
-            $('#myDropdown').slideToggle(200);
+            $('#myDropdown').stop().slideToggle(200);
+        });
+
+        $("#toTop").click(function () {
+
+            $("html, body").stop().animate({scrollTop: 0}, 1000);
         });
     });
 </script>
