@@ -261,7 +261,6 @@ button {
   padding: 10px;
   border-radius: 7px; }
 
-
 .blog_flex2 {
   margin-bottom: 30px; }
 
@@ -880,7 +879,7 @@ footer p {
 
 .m_footer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
   grid-template-rows: auto;
   text-align: center;
   background-color: #f5ede2; }
@@ -1017,7 +1016,6 @@ input {
       position: absolute;
       color: white; }
 
-
   .search {
     margin: auto;
     grid-column: 7/ span7;
@@ -1035,7 +1033,6 @@ input {
     .search svg {
       color: white; }
 
-  
   #toTop:hover {
     cursor: pointer; }
 
@@ -1341,7 +1338,7 @@ input {
 
   .backgroundpic {
     display: block;
-    background: url("../images/artboard_2.jpg") no-repeat;
+    background: url("../images/Artboard_2.jpg") no-repeat;
     background-size: cover; }
 
   .helpbox {
