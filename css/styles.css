@@ -930,6 +930,17 @@ input {
 .fonticon {
   margin-right: 10px; }
 
+.f_fejlside404 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  margin-top: 10px;
+  padding-bottom: 20px; }
+
+.f_fejltx {
+  padding-top: 20px;
+  text-align: center; }
+
 @media screen and (min-width: 768px) {
   .p_pro1, .p_pro2, .p_pro3, .p_pro4, .p_pro5, .p_pro6, .p_pro7, .p_pro8, .p_pro9, .p_pro10, .p_pro11, .p_pro12, .p_pro13, .p_pro14, .p_pro15 {
     height: 25vh;
@@ -1563,7 +1574,19 @@ input {
     display: grid;
     text-align: center;
     background-color: #f5ede2;
-    grid-template-rows: 1fr; } }
+    grid-template-rows: 1fr; }
+
+  .f_fejlside404 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-top: 10px;
+    padding-bottom: 40px; }
+
+  .f_fejltx {
+    padding-top: 40px;
+    text-align: center;
+    margin-left: auto; } }
 @media screen and (min-width: 1200px) {
   .m_voresprodukttx {
     margin: 20px 400px; }

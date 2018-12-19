@@ -1253,6 +1253,24 @@ input{
 }
 //footerslut
 
+//fejlside404
+.f_fejlside404{
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  margin-top:10px;
+  padding-bottom: 20px;
+}
+
+.f_fejltx{
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+//fejlside404 slut
+
+
 
 @media screen and (min-width: 768px) {
   // Alt der ændres i tablet stående fra mobil
@@ -2086,6 +2104,29 @@ input{
       background-color: #f5ede2;
       grid-template-rows: 1fr;
     }
+
+
+  //fejlside404
+  .f_fejlside404{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-top:10px;
+    padding-bottom: 40px;
+  }
+
+  .f_fejltx{
+    padding-top: 40px;
+    text-align: center;
+    margin-left: auto;
+  }
+
+
+
+  //fejlside404 slut
+
+
+}
 
     //footer slut
 
