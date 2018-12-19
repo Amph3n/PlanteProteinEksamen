@@ -37,7 +37,8 @@ p {
   font-family: 'montserrat', sans-serif;
   font-size: 10pt;
   font-weight: lighter;
-  word-break: keep-all;
+  word-wrap: break-word;
+  line-height: 23px;
 }
 
 // Sikrer billeder er responsive
@@ -366,6 +367,12 @@ width: 60%;
 
 //footer
 
+footer{
+  p{
+    line-height: normal;
+  }
+}
+
 .b_betingelser{
   width:80%;
   margin-left: auto;
@@ -376,13 +383,14 @@ width: 60%;
 
 .overskriftbetingelser{
   text-align:center;
-  margin-top: 30px;
+  padding-top: 20px;
 }
 
 .overskriftforsendelse{
   text-align:center;
   margin-top: 20px;
 }
+
 .overskriftbetalingsmetoder{
   text-align:center;
   margin-top: 20px;
@@ -400,10 +408,7 @@ width: 60%;
 .b_betalingsmetoder
 {
   width:80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto 20px auto;
 }
 
 //footer slut
@@ -413,6 +418,7 @@ width: 60%;
 
   .om_os{
     margin: 0 34px;
+    padding-top: 20px
   }
 
   .overskriftomos{
@@ -421,7 +427,6 @@ width: 60%;
 
   .omostekst{
        margin: 20px 0;
-       line-height: 23px;
   }
 
   .overskrifthvorfor{
@@ -434,8 +439,7 @@ width: 60%;
 
  .billederomos{
    width: 80%;
-   margin: auto;
-   margin-bottom: 15px;
+   margin: auto auto 15px auto;
  }
 
  .kvalitet{
@@ -513,9 +517,9 @@ width: 60%;
 
 .questions {
   width: 90%;
-  margin: auto;
+  margin: 20pt auto;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 20pt;
+
 
   i {
 
@@ -1001,9 +1005,6 @@ margin-top: 5px;
   margin-top: 10px;
 }
 
-.p_antaldiv{
-
-}
 
 .p_pris{
   margin-top: 10px;
@@ -1013,7 +1014,6 @@ margin-top: 5px;
 
 .p_antaldiv{
   text-align: center;
-  margin-top: 0px;
   display: flex;
   background-color: #deccb4;
   width: 200px;
@@ -1029,6 +1029,11 @@ margin-top: 5px;
     border: none;
     width: 33%;
 
+  }
+
+  p{
+    font-size: 15pt;
+    line-height: normal;
   }
 
   input[type=number]::-webkit-inner-spin-button,
@@ -1087,24 +1092,20 @@ margin-top: 5px;
 .blogsideoverskrift{
   //font-size: 8pt;
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .blogoverskrifttx{
   //font-size: 8pt;
   text-align: center;
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 10px 20px 20px 20px;
+
 }
 
 .rolldown2, .rolldown1{
   display:none;
-  //font-size: 8pt;
-  margin-right: 8px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin: 0 8px 20px 20px;
+
 }
 
 .blogsideoverskrifttx {
@@ -1113,9 +1114,7 @@ margin-top: 5px;
 }
 
 .blogsidetx {
-  margin: 10px;
-  margin-right: 50px;
-  margin-left: 20px;
+  margin: 10px 50px 10px 20px;
 }
 
 #toggle1, #toggle2{
@@ -1155,7 +1154,7 @@ margin-top: 5px;
 //Kontakt start
 .k_kontaktoverskrift{
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .k_kontakttx{
@@ -1250,15 +1249,12 @@ margin-top: 5px;
 }
 
 .m_kundeservice{
-  margin-top: 20px;
-  margin-bottom: 20px;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
   text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 20px auto;
 }
 
 .m_nyhedsbrev{
@@ -1303,6 +1299,24 @@ input{
 }
 //footerslut
 
+//fejlside404
+.f_fejlside404{
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  margin-top:10px;
+  padding-bottom: 20px;
+}
+
+.f_fejltx{
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+//fejlside404 slut
+
+
 
 @media screen and (min-width: 768px) {
   // Alt der ændres i tablet stående fra mobil
@@ -1346,6 +1360,15 @@ input{
 
 @media screen and (min-width: 992px) {
   // Alt der ændres i tablet liggende fra mobil og tablet stående
+
+  p{
+    line-height: 27px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 23pt;
+
+  }
 
     // om os
 
@@ -1397,9 +1420,9 @@ input{
   }
 
     .om_os {
-      margin: 20px 22%;
+      margin: 0 22% 50px 22%;
       text-align: center;
-      margin-bottom: 50px;
+      padding-top: 80px;
     }
 
     .overskriftomos {
@@ -1408,7 +1431,6 @@ input{
 
     .omostekst {
       margin: 20px 0;
-      line-height: 27px;
     }
 
     .overskrifthvorfor {
@@ -1477,10 +1499,9 @@ input{
 
     .questions {
       width: 60%;
-      margin: auto;
+      margin: 35pt auto 40pt auto;
       font-family: 'Montserrat', sans-serif;
-      margin-top: 35pt;
-      margin-bottom: 40pt;
+
 
       i {
         width: 10%;
@@ -1561,8 +1582,11 @@ input{
   //Blog
 
   .blogheader {
-    display: block;
     display: flex;
+  }
+
+  .blogsideoverskrift{
+    padding-top: 80px;
   }
 
   .skyr {
@@ -1668,7 +1692,7 @@ input{
   }
 
   .p_antal{
-    margin-top: 0px;
+    margin-top: 0;
   }
 
 
@@ -1680,9 +1704,8 @@ input{
     width: 33%;
   }
 
-  .p_antaldiv{
+  .p_antaldiv {
     text-align: center;
-    margin-top: 0px;
     margin-right: 5px;
     display: flex;
     background-color: #deccb4;
@@ -1702,7 +1725,7 @@ input{
 
   .p_kurv{
     text-align: center;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 5px;
 
 
@@ -1716,11 +1739,16 @@ input{
   //produktside slut
 
   //footer
+
+  footer{
+    p{
+      line-height: normal;
+    }
+  }
   .overskriftbetingelser{
-    padding-top: 20px;
+    padding-top: 80px;
     margin-top: 0;
     margin-bottom: 30px;
-    padding: 56px 0 0 0;
 
   }
 
@@ -1834,7 +1862,7 @@ input{
       width: 60%;
       margin-left: auto;
       margin-right: auto;
-      padding-top: 20px;
+      padding-top: 80px;
     }
 
     .p_produktoverskrifttx {
@@ -1883,7 +1911,7 @@ input{
     //Kontakt start
     .k_kontaktoverskrift {
       text-align: center;
-      padding-top: 50px;
+      padding-top: 80px;
     }
 
     .k_kontakttx {
@@ -2139,12 +2167,8 @@ input{
 
     .vh {
       display: block;
-      margin-top: 20px;
       border: 0.5px solid black;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 20px;
-
+      margin: 20px auto 20px auto;
     }
 
     .some {
@@ -2186,10 +2210,30 @@ input{
       grid-template-rows: 1fr;
     }
 
-    //footer slut
+
+  //fejlside404
+  .f_fejlside404{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-top:10px;
+    padding-bottom: 40px;
+  }
+
+  .f_fejltx{
+    padding-top: 40px;
+    text-align: center;
+    margin-left: auto;
+  }
+
+
+
+  //fejlside404 slut
 
 
 }
+
+
 
 @media screen and (min-width: 1200px) {
   // Alt der ændres i computer fra mobil, tablet stående og tablet liggende
