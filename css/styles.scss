@@ -38,6 +38,7 @@ p {
   font-size: 10pt;
   font-weight: lighter;
   word-break: keep-all;
+  line-height: 23px;
 }
 
 // Sikrer billeder er responsive
@@ -355,6 +356,12 @@ width: 60%;
 
 //footer
 
+footer{
+  p{
+    line-height: normal;
+  }
+}
+
 .b_betingelser{
   width:80%;
   margin-left: auto;
@@ -365,7 +372,7 @@ width: 60%;
 
 .overskriftbetingelser{
   text-align:center;
-  margin-top: 30px;
+  padding-top: 20px;
 }
 
 .overskriftforsendelse{
@@ -402,6 +409,7 @@ width: 60%;
 
   .om_os{
     margin: 0 34px;
+    padding-top: 20px
   }
 
   .overskriftomos{
@@ -410,7 +418,6 @@ width: 60%;
 
   .omostekst{
        margin: 20px 0;
-       line-height: 23px;
   }
 
   .overskrifthvorfor{
@@ -1354,6 +1361,11 @@ input{
 @media screen and (min-width: 992px) {
   // Alt der ændres i tablet liggende fra mobil og tablet stående
 
+  p{
+
+    line-height: 27px;
+  }
+
     // om os
 
   #toTop {
@@ -1383,6 +1395,7 @@ input{
       margin: 20px 22%;
       text-align: center;
       margin-bottom: 50px;
+      padding-top: 80px;
     }
 
     .overskriftomos {
@@ -1391,7 +1404,6 @@ input{
 
     .omostekst {
       margin: 20px 0;
-      line-height: 27px;
     }
 
     .overskrifthvorfor {
@@ -1548,6 +1560,10 @@ input{
     display: flex;
   }
 
+  .blogsideoverskrift{
+    padding-top: 80px;
+  }
+
   .skyr {
     margin: 20px;
   }
@@ -1699,8 +1715,14 @@ input{
   //produktside slut
 
   //footer
+
+  footer{
+    p{
+      line-height: normal;
+    }
+  }
   .overskriftbetingelser{
-    padding-top: 20px;
+    padding-top: 80px;
     margin-top: 0;
     margin-bottom: 30px;
     padding: 56px 0 0 0;
@@ -1817,7 +1839,7 @@ input{
       width: 60%;
       margin-left: auto;
       margin-right: auto;
-      padding-top: 20px;
+      padding-top: 80px;
     }
 
     .p_produktoverskrifttx {
@@ -1866,7 +1888,7 @@ input{
     //Kontakt start
     .k_kontaktoverskrift {
       text-align: center;
-      padding-top: 50px;
+      padding-top: 80px;
     }
 
     .k_kontakttx {
