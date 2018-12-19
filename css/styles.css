@@ -27,7 +27,8 @@ p {
   font-family: 'montserrat', sans-serif;
   font-size: 10pt;
   font-weight: lighter;
-  word-break: keep-all; }
+  word-break: keep-all;
+  line-height: 23px; }
 
 img {
   display: block;
@@ -258,6 +259,9 @@ button {
   padding: 10px;
   border-radius: 7px; }
 
+footer p {
+  line-height: normal; }
+
 .b_betingelser {
   width: 80%;
   margin-left: auto;
@@ -266,7 +270,7 @@ button {
 
 .overskriftbetingelser {
   text-align: center;
-  margin-top: 30px; }
+  padding-top: 20px; }
 
 .overskriftforsendelse {
   text-align: center;
@@ -290,14 +294,14 @@ button {
   margin-bottom: 20px; }
 
 .om_os {
-  margin: 0 34px; }
+  margin: 0 34px;
+  padding-top: 20px; }
 
 .overskriftomos {
   text-align: center; }
 
 .omostekst {
-  margin: 20px 0;
-  line-height: 23px; }
+  margin: 20px 0; }
 
 .overskrifthvorfor {
   text-align: center;
@@ -992,6 +996,9 @@ input {
     margin-left: 2%;
     margin-right: 2%; } }
 @media screen and (min-width: 992px) {
+  p {
+    line-height: 27px; }
+
   #toTop {
     display: block;
     height: 50px;
@@ -1017,14 +1024,14 @@ input {
   .om_os {
     margin: 20px 22%;
     text-align: center;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    padding-top: 80px; }
 
   .overskriftomos {
     text-align: center; }
 
   .omostekst {
-    margin: 20px 0;
-    line-height: 27px; }
+    margin: 20px 0; }
 
   .overskrifthvorfor {
     text-align: center;
@@ -1144,6 +1151,9 @@ input {
     display: block;
     display: flex; }
 
+  .blogsideoverskrift {
+    padding-top: 80px; }
+
   .skyr {
     margin: 20px; }
 
@@ -1245,8 +1255,11 @@ input {
       width: 200px;
       height: 25px; }
 
+  footer p {
+    line-height: normal; }
+
   .overskriftbetingelser {
-    padding-top: 20px;
+    padding-top: 80px;
     margin-top: 0;
     margin-bottom: 30px;
     padding: 56px 0 0 0; }
@@ -1333,7 +1346,7 @@ input {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px; }
+    padding-top: 80px; }
 
   .p_produktoverskrifttx {
     margin-top: 10px; }
@@ -1376,7 +1389,7 @@ input {
 
   .k_kontaktoverskrift {
     text-align: center;
-    padding-top: 50px; }
+    padding-top: 80px; }
 
   .k_kontakttx {
     margin-top: 10px;
