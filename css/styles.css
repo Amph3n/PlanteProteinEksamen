@@ -1011,6 +1011,9 @@ input {
       position: absolute;
       color: white; }
 
+  #toTop:hover {
+    cursor: pointer; }
+
   .om_os {
     margin: 20px 22%;
     text-align: center;
