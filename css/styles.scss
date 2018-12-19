@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0; // Ingen indre margen fra overskrifter
   font-family: 'Work Sans', sans-serif;
   font-weight: normal;
-  font-size: 11pt;
+  font-size: 18pt;
 
 }
 
@@ -35,7 +35,7 @@ p {
   margin: 0; // Ingen ydre margen fra paragraffer
   padding: 0; // Ingen indre margen fra paragraffer
   font-family: 'montserrat', sans-serif;
-  font-size: 9pt;
+  font-size: 10pt;
   font-weight: lighter;
   word-break: keep-all;
 }
@@ -120,7 +120,7 @@ $brown: #f5ede2;
 
 .dropdown-content {
   display: none;
-  background-color: $brown;
+  background-color: white;
   min-width: 160px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
@@ -130,10 +130,12 @@ $brown: #f5ede2;
 }
 
 .dropdown-content a {
-  color: white;
+  color: $darkGreen;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 10pt;
 }
 
 .m_webmenu{
@@ -142,9 +144,24 @@ $brown: #f5ede2;
   a {
     font-family: 'Work Sans', sans-serif;
   }
+
+  .on_page {
+    color: $darkGreen;
+  }
 }
 
+
+
 //menu slut
+
+#toTop {
+ display: none;
+
+  svg {
+   display: none;
+  }
+
+}
 
 //forside
 .m_voresprodukttx{
@@ -315,11 +332,20 @@ width: 60%;
 }
 
 .blogtext_flex1, .blogtext_flex2 {
+
+  h2 {
+    font-size: 14pt;
+
+  }
+
   button {
     color: white;
-    background-color: $darkGreen;
+    font-size: 12px;
+    background-color: #636e4a;
     margin-left: 10px;
     margin-top: 12px;
+    padding: 10px;
+    border-radius: 7px;
   }
 
 }
@@ -1175,6 +1201,10 @@ margin-top: 5px;
   text-align: center;
   background-color: $brown;
 
+  h1, h2 {
+    font-size: 12pt;
+  }
+
 }
 
 .m_footertx{
@@ -1185,6 +1215,15 @@ margin-top: 5px;
 .m_nyhedstx{
   margin-top: 50px;
   margin-bottom: 50px;
+
+  button {
+    color: white;
+    font-size: 11px;
+    background-color: #636e4a;
+    padding: 5px;
+    border-radius: 6px;
+  }
+
 }
 
 .m_kontaktfooter{
@@ -1316,6 +1355,29 @@ input{
   // Alt der ændres i tablet liggende fra mobil og tablet stående
 
     // om os
+
+  #toTop {
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: $lightGreen;
+    border-radius: 25px;
+
+    svg {
+      display: block;
+      @include center;
+      position: absolute;
+      color: white;
+    }
+
+  }
+
+  #toTop:hover {
+    cursor: pointer;
+  }
 
     .om_os {
       margin: 20px 22%;

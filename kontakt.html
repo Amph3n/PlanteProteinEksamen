@@ -57,7 +57,7 @@
                 <a href="om_os.html">Om os</a></div>
 
             <div class="menupunkt3">
-                <a href="kontakt.html">Kontakt</a></div>
+                <a href="kontakt.html" class="on_page">Kontakt</a></div>
 
             <div class="menupunkt4">
                 <a href="blog.html">Blog</a></div>
@@ -223,7 +223,12 @@
 
     $(document).ready(function (e) {
         $('.button').click(function (e) {
-            $('#myDropdown').slideToggle(200);
+            $('#myDropdown').stop().slideToggle(200);
+        });
+
+        $("#toTop").click(function () {
+
+            $("html, body").stop().animate({scrollTop: 0}, 1000);
         });
     });
 </script>
