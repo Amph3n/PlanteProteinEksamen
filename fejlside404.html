@@ -14,25 +14,12 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Rawfusion</title>
-    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <title>Fejl404</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
-    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
-    <link rel="icon" href="images/Logo%20hvid.png" type="image/png">
-    <meta name="description" content="plante protein sælger velsmagende plantebaseret produkter som er perfekt til træning og veganere. Køb her.">
-    <meta name="keywords" content="">
-    <meta property="og:title" content="Plante-Protein"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://www.plante-protein.dk/Rawfusion"/>
-    <meta property="og:image" content="http://www.plante-protein.dk//index/quote.jpg"/>
-    <meta property="og:description" content="Vi har samlet et bredt udvalg af velsmagende proteinpulver og barer i højeste kvalitet til en god pris. Vores mål er at bryde fordommen om at plantebaseret protein ikke kan smage godt. "/>
-    <meta property="og:locale" content="da_DK"/>
-
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -49,7 +36,7 @@
         <div class="m_webmenu">
 
             <div class="logo1">
-                <img src="images/Logo_hvid.svg">
+                <img src="images/logo_hvid.svg">
             </div>
 
             <a class="logo_link" href="index.html">
@@ -62,28 +49,21 @@
 
 
             <div class="menupunkt1">
-                <a href="produkter.html" class="on_page">Produkter</a></div>
+                <a href="produkter.html">Produkter</a></div>
 
             <div class="menupunkt2">
-                <a href="om_os.html">Om os</a></div>
+                <a href="kontakt.html">Kontakt</a></div>
 
             <div class="menupunkt3">
-                <a href="kontakt.html">Kontakt</a></div>
+                <a href="om_os.html">Om Os</a></div>
 
             <div class="menupunkt4">
                 <a href="blog.html">Blog</a></div>
 
 
-            <div class="search">
-                <input type="search" placeholder="Søg...">
-                <i class="fas fa-search"></i>
-            </div>
-
         </div>
         <div class="logo2">
-            <a href="index.html">
-                <img src="images/Logo hvid.png" height="76" width="263"/>
-            </a>
+            <img src="images/Logo hvid.png" height="76" width="263"/>
         </div>
 
         <div class="cart2">
@@ -95,10 +75,10 @@
             <div class="button"><i class="fas fa-bars"></i></div>
 
             <div id="myDropdown" class="dropdown-content">
-                <a href="produkter.html">Produkter</a>
-                <a href="om_os.html">Om os</a>
-                <a href="kontakt.html">Kontakt</a>
-                <a href="blog.html">Blog</a>
+                <a href="#">Produkter</a>
+                <a href="#">Om os</a>
+                <a href="#">Kontakt</a>
+                <a href="#">Blog</a>
             </div>
 
         </div>
@@ -113,59 +93,20 @@
 
 
             <main>
-<div class="p_produktdisplay">
+                <div class="f_flexfejl">
+                <div class="f_fejltx">
+                    <h1>Fejl 404!</h1>
+                    <br>
+                    <p>Der skete en fejl på siden! <br> Det skal dog ikke stoppe dine gainz <br> Så skynd dig tilbage på siden! </p>
+                    <a href="index.html"><br>Vejen til Gainz</a>
 
-        <div class="p_imgprodukt"></div>
-        <div class="whitebox">
-            <div class="whiteboxholder">
-            <div class="p_produkttx">
-                <div class="p_flex1">
-                <div class="p_produkttx1"><h1>Rawfusion vegansk proteinpulver</h1></div>
-                    <div class="p_produkttx2"> <p>RAWFUSIONs eksklusive blanding af ærteprotein isolat, spirede brune ris og artiskok proteinkoncentrat har skabt en patentanmeldt formel, der er ideel til veganere og laktoseintolerante.
-
-                       <br><br> Kun sødet naturligt.</p></div></div></div>
-
-                <div class="p_flex2">
-            <div class="p_smag">
-
-                <select title="smagsvarianter">
-                <option value="vanilje">Vanilje</option>
-                <option value="chokolade">Chokolade</option>
-                </select>
-        </div>
-
-            <div class="p_pris">
-                DKK 199,00 kr
-            </div>
-
-                    <div class="p_flex3">
-
-
-            <div class="p_antal">
-
-
-
-
-
-                <div class="p_antaldiv">
-                    <div class="minus"><p>-</p></div>
-                    <input title="antalstk" type="number" value="1" id="p_number">
-                    <div class="plus"><p>+</p></div>
                 </div>
 
-            </div>
+                <div class="f_fejlside404">
+                    <img src="images/planteme.jpg">
 
-
-            <div class="p_kurv">
-                <button type="submit">Føj til Kurv</button>
-            </div>
-                    </div>
-            </div>
-
-    </div>  </div>
-
-
-</div>
+                </div>
+        </div>
 
             </main>
 
@@ -259,26 +200,7 @@
         $('.button').click(function (e) {
             $('#myDropdown').slideToggle(200);
         });
-
-
-
-
-        $('.plus').click(function (e) {
-            var num = +$("#p_number").val() + 1;
-            $("#p_number").val(num);
-        });
-
-        $('.minus').click(function (e) {
-           $("#p_number").val(Number($("#p_number").val())-1)
-
-        })
-
-
-
-        });
-
-
-
+    });
 </script>
 
 </body>
