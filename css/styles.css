@@ -1466,7 +1466,7 @@ input {
   .logo_img {
     height: 80%;
     margin-left: 20px;
-    background: url("../images/Logo hvid.png") no-repeat center;
+    background: url("../images/Logo_hvid.png") no-repeat center;
     background-size: contain; }
 
   .menupunkt1 a, .menupunkt2 a, .menupunkt3 a, .menupunkt4 a {
